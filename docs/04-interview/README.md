@@ -1,0 +1,19 @@
+# 04 · AI 产品经理面试题库
+
+按题型分类的面试题 + 真实面经。所有题目遵循统一格式:**题目 → 考察点 → 参考答案 → 追问延伸 → 相关阅读**,投稿请使用 [面试题模板](../../templates/interview-question.md)。
+
+## 目录
+
+| 分类 | 说明 | 高频程度 |
+|------|------|----------|
+| [basics/](basics/README.md) | 基础概念题:RAG、微调、幻觉、Agent… | ★★★★★ |
+| [product-design/](product-design/README.md) | 产品设计题:"为 X 设计一个 AI 功能" | ★★★★★ |
+| [case-analysis/](case-analysis/README.md) | 案例分析与估算:拆产品、算成本、定指标 | ★★★★ |
+| [behavioral/](behavioral/README.md) | 行为面与转行动机:为什么做 AI PM | ★★★ |
+| [experiences/](experiences/README.md) | 真实面经(按公司归档) | — |
+
+## 使用建议
+
+1. **不要背答案**。参考答案给的是思考框架,面试官考的是你的思考过程。
+2. 概念题过一遍查漏 → 设计题动笔写(不要只在脑子里想)→ 面经用来了解风格和流程。
+3. 每道题的「追问延伸」是面试官最可能 follow-up 的方向,务必准备。
