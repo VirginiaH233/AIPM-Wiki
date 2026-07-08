@@ -2,11 +2,9 @@
 
 Prompt 是 AI PM 最直接的"生产工具":不写代码也能显著改变产品效果。
 
-## 规划中的文章(欢迎认领)
+## 目录
 
-- Prompt 基本功:角色、任务、约束、示例、输出格式
-- Few-shot:用例子教模型做事
-- 思维链(CoT):让模型"先想再答"
-- 结构化输出:让模型稳定吐出 JSON
-- Prompt 的版本管理与回归测试:把玄学变工程
-- 系统提示词(System Prompt)设计实战
+- [Prompt 基本功:角色、任务、约束、示例、输出格式](prompt-basics.md)(含 Few-shot 用法)
+- [结构化输出:让模型稳定吐出 JSON](structured-output.md)
+- [系统提示词设计与 Prompt 工程化:把玄学变工程](system-prompt-and-prompt-ops.md)(含版本管理与回归测试)
+- 思维链(CoT):见面试题 [什么是思维链?](../../04-interview/basics/chain-of-thought.md)

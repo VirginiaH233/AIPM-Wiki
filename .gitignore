@@ -6,3 +6,12 @@
 
 # 系统文件
 .DS_Store
+
+# 本地编辑器/工具配置(因人而异,不入库)
+.obsidian/
+.claudian/
+.claude/
+.cursor/
+
+# 飞书同步状态(仅本地使用)
+.feishu-sync.json

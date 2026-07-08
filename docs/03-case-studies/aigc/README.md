@@ -4,7 +4,9 @@
 
 ## 案例列表
 
-*暂无,欢迎使用 [案例模板](../../../templates/case-study.md) 投稿第一篇。*
+- [AI 视频生成案例拆解:Sora 与 Veo 的两条路线](ai-video-generation.md) —— 高成本能力的产品化取舍,含 Sora 消费级 App 关停复盘(2026-07)
+
+欢迎使用 [案例模板](../../../templates/case-study.md) 投稿更多案例。
 
 ## 选题建议
 
