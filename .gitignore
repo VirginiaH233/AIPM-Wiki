@@ -6,3 +6,12 @@
 
 # 系统文件
 .DS_Store
+
+# 本地编辑器/工具配置(因人而异,不入库)
+.obsidian/
+.claudian/
+.claude/
+
+# 飞书同步:状态文件与本地同步技能(仅本地使用;共享技能 .cursor/skills/wiki-manager 保持入库)
+.feishu-sync.json
+.cursor/skills/feishu-wiki-sync/
