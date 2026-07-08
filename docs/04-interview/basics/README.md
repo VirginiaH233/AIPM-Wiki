@@ -5,11 +5,20 @@
 ## 题目列表
 
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
-
-## 高频题征集中(欢迎认领投稿)
-
-- 什么是大模型的幻觉?产品上怎么缓解?
-- 解释一下什么是 Agent,它和 Chatbot 的区别是什么?
-- 什么是 token?它如何影响产品的成本和体验?
-- 精确率和召回率的区别?举一个产品中需要权衡二者的例子
-- 为什么大模型的输出每次都不一样?
+- [什么是大模型的幻觉?产品上怎么缓解?](hallucination-mitigation.md)
+- [Prompt、RAG、SFT 分别是什么?有什么区别?](prompt-rag-sft-difference.md)
+- [预训练、微调、SFT 的区别与应用场景](pretrain-finetune-sft.md)
+- [如何构建大模型效果评测体系?](model-evaluation-system.md)
+- [AI 产品中如何平衡准确性与响应速度?](accuracy-vs-latency.md)
+- [什么是 Agent?它和 Chatbot 的区别是什么?](agent-vs-chatbot.md)
+- [LoRA 和全量微调有什么区别?什么场景选哪个?](lora-vs-full-finetuning.md)
+- [什么是数据飞轮?对 AI 产品为什么重要?](data-flywheel.md)
+- [如何判断一个业务问题是否适合用 AI 解决?](when-to-use-ai.md)
+- [AI 产品的黑箱问题如何影响用户信任?产品层面怎么做?](ai-blackbox-trust.md)
+- [什么是 token?它如何影响产品的成本和体验?](token-cost-and-experience.md)
+- [如何评估 RAG 知识库的准确率?](rag-kb-accuracy-evaluation.md)
+- [什么是 CoT(思维链)?有什么优势?](chain-of-thought.md)
+- [什么是 Agentic Workflows?](agentic-workflows.md)
+- [大模型的上下文窗口和记忆机制是什么?](context-window-and-memory.md)
+- [精确率和召回率的区别?举一个产品中需要权衡的例子](precision-vs-recall.md)
+- [为什么大模型的输出每次都不一样?](llm-output-randomness.md)
