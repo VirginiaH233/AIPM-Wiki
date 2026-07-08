@@ -1,0 +1,5 @@
+# 调研原始素材(见 wiki-research skill),仅本地使用
+.research/
+
+# 系统文件
+.DS_Store
