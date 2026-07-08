@@ -4,7 +4,9 @@
 
 ## 案例列表
 
-*暂无,欢迎使用 [案例模板](../../../templates/case-study.md) 投稿第一篇。*
+- [ChatGPT 案例拆解](chatgpt.md) —— 9 亿 WAU 的通用工作台:功能矩阵、订阅分层、广告化与 Sora 关停的取舍(2026-07)
+
+欢迎使用 [案例模板](../../../templates/case-study.md) 投稿更多案例。
 
 ## 选题建议
 

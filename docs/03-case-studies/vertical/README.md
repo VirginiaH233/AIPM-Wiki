@@ -4,7 +4,9 @@
 
 ## 案例列表
 
-*暂无,欢迎使用 [案例模板](../../../templates/case-study.md) 投稿第一篇。*
+- [智能客服:最成熟的 LLM 落地场景拆解](ai-customer-service.md) —— Fin 与 Sierra 的按结果付费模式、多模型编排架构(2026-07)
+
+欢迎使用 [案例模板](../../../templates/case-study.md) 投稿更多案例。
 
 ## 选题建议
 
