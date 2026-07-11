@@ -25,7 +25,7 @@ Anthropic 在《Building Effective Agents》中给出关键区分:**工作流是
 
 ## 2026 年中的主流 Agent 形态
 
-- **编码 Agent**:落地最成熟的品类,如 Claude Code(终端原生,审批优先)、OpenAI Codex(CLI 起步,现有桌面/云端异步执行)、Google Antigravity(IDE 内并行调度多个自主 Agent)。任务边界明确、有客观验证标准(测试是否通过),是自主性风险最可控的场景。
+- **编码 Agent**:落地最成熟的品类,如 Claude Code(终端起步,现有桌面端)、OpenAI Codex(独立桌面端 / CLI / 云端异步)、Google Antigravity(2.0 起以独立桌面端做多 Agent 编排,另有 CLI 与可选 IDE)。任务边界明确、有客观验证标准(测试是否通过),是自主性风险最可控的场景。
 - **电脑操作 Agent(Computer Use)**:让模型直接看屏幕、操作浏览器/桌面应用完成任务。可靠性是最大挑战,产品普遍在支付、发送、删除等关键动作前设人工确认。
 - **深度研究 Agent(Deep Research)**:自主完成多轮搜索、阅读、交叉验证,产出带引用的报告,单次任务可自主运行数十分钟。
 - **多 Agent 协作**:复杂任务拆给多个专精子 Agent 并行处理再汇总,是 2026 年的另一重要方向。

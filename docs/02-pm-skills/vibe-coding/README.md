@@ -5,7 +5,7 @@
 ## 目录
 
 - [Vibe Coding 是什么:AI PM 该不该自己写代码](what-is-vibe-coding.md) —— 概念溯源、与传统写代码/低代码平台的区别、能做与不该做的边界
-- [Vibe Coding 工具盘点与选型(2026 年中)](tool-landscape.md) —— 编程 Agent / 全栈生成平台 / 工作流搭建平台三分类对比
+- [Vibe Coding 工具盘点与选型(2026 年中)](tool-landscape.md) —— 编程 Agent / 全栈生成 / 设计落地 / 工作流平台四分类对比
 - [从一句话需求到能跑的原型:AI PM 的 Vibe Coding 实战方法论](from-idea-to-demo.md) —— 完整工作流、迭代式提示技巧、案例走查、何时交给工程师
 
 ## 阅读建议

@@ -51,6 +51,14 @@
 
 > 💡 [Claudian](https://github.com/YishenTu/claudian) 是 Obsidian 官方社区插件市场里的一个插件,能让你在 vault 内直接和 Claude 对话、检索笔记。本仓库的大部分内容正是用 Obsidian + Claudian 协作撰写和维护的——这也是我们把它称为"最佳使用方式"的原因。
 
+## 🌐 或者:飞书只读版(网页直接看)
+
+不想 clone、也不想装 Obsidian?可以直接在浏览器里看飞书版:
+
+👉 [AI 产品经理知识库(飞书)](https://my.feishu.cn/wiki/JKW1wA6uRig0qIkqIeScXLEon1b)
+
+> ⚠️ 飞书版由 GitHub 单向同步生成,**只读展示**,内容可能有延迟;真正的最新版本、讨论和贡献入口始终在本仓库。发现问题请在 GitHub 提 Issue,不要在飞书上编辑。
+
 ## 📖 内容导航
 
 | 板块 | 内容 | 适合谁 |

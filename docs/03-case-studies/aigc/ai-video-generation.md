@@ -59,6 +59,7 @@ Veo 走的是相反的路线:不单独打造一款视频生成 App,而是把 Veo
 
 ## 相关阅读
 
+- [可灵与即梦:视频生成两条商业化路径](kling-vs-jimeng.md)
 - [DeepSeek 开始峰谷定价,你怎么看 AI 产品的商业模式?](../../04-interview/case-analysis/ai-business-model-and-pricing.md)
 - [某功能接入大模型后成本涨了 10 倍,如何降本?](../../04-interview/case-analysis/reduce-llm-cost-10x.md)
 - [AI 产品成本测算入门:token、并发与人力](../../02-pm-skills/cost-and-tech/llm-cost-101.md)
