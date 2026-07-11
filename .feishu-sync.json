@@ -1,0 +1,507 @@
+{
+  "space_id": "7660066449016261582",
+  "wiki_domain": "https://my.feishu.cn",
+  "last_synced_commit": "c4720158d1a7429e811d6dde6875a1e2bda0c284",
+  "nodes": {
+    "README.md": {
+      "node_token": "JKW1wA6uRig0qIkqIeScXLEon1b",
+      "obj_token": "H65nd8DQAoFt5uxm6VhcdS6tnCY"
+    },
+    "docs/00-roadmap": {
+      "node_token": "QJZ2wI8WOiNRNtkO6VecAEuHnzd",
+      "obj_token": "WYxLdBGb7ophYjxI4RYcyDuRnPd"
+    },
+    "docs/01-ai-basics": {
+      "node_token": "AydiwwHdLiMJPak8h9cckVpgnZM",
+      "obj_token": "WMuGdkqgDoimNyxbCDncL0rBnMe"
+    },
+    "docs/01-ai-basics/llm": {
+      "node_token": "X0e4wryVQi2waIkDvB3cSspynDg",
+      "obj_token": "KtI9djuHfo4ewfxFURqcqCXEnRb"
+    },
+    "docs/01-ai-basics/machine-learning": {
+      "node_token": "Gyxgw7n2IixCXYkoDHYcNbefnAh",
+      "obj_token": "OgPpd6zv7o4U78xt6RcccImpnwg"
+    },
+    "docs/01-ai-basics/prompt-engineering": {
+      "node_token": "XmVFwh2bhi7pnhk2wGsciSvlnSi",
+      "obj_token": "V6AudsjBko6uKtxPpeCcjxEcnpg"
+    },
+    "docs/02-pm-skills": {
+      "node_token": "ZqGNwx5hxiNKRCkzmuDcvaJSn7e",
+      "obj_token": "MWLudI8cwoRLFwxaxSpcfGVynWc"
+    },
+    "docs/02-pm-skills/cost-and-tech": {
+      "node_token": "YbO4wPnyyi3ZQYkeFWZc5cm0nab",
+      "obj_token": "LlVLdTuAdoF4nUxdJRbcgXJXn1b"
+    },
+    "docs/02-pm-skills/data-annotation": {
+      "node_token": "KgSAwLysNiKDsVk3wzicAKgInFh",
+      "obj_token": "YFnYddqPlovIMWx8wIHcekfcnmg"
+    },
+    "docs/02-pm-skills/model-evaluation": {
+      "node_token": "TYSJwk9hfizmrjkQloGc9zM3nEg",
+      "obj_token": "NUwAdkKBLoqnF8xlt4OcCkxQnqf"
+    },
+    "docs/02-pm-skills/prd-and-design": {
+      "node_token": "S98Qw7vAAii6skkLrm1cSywtnMn",
+      "obj_token": "AqFYdGQvcoMnJMxIB3kc4NUinGe"
+    },
+    "docs/03-case-studies": {
+      "node_token": "W7slw683ZiDd9YksXIOc2mAbntb",
+      "obj_token": "OONDdkSAookvczxUTgJcr8tynEE"
+    },
+    "docs/03-case-studies/aigc": {
+      "node_token": "F6JkwNJbuixxZ8kseQBcsfgbnYk",
+      "obj_token": "FVEodBCqNo0VT5xy15xcf7Qgnnd"
+    },
+    "docs/03-case-studies/chatbot-assistant": {
+      "node_token": "ZyXTwu2eiivSfikQAcKcQIt6nZg",
+      "obj_token": "XKH5dGXKqoBTHbxJpAHclwFjnHb"
+    },
+    "docs/03-case-studies/search-and-rec": {
+      "node_token": "Y8AbwT2CFiY3gOkM8eecAMTRnmb",
+      "obj_token": "M8XxdJzIgowzRJx2x8UcJMuunid"
+    },
+    "docs/03-case-studies/vertical": {
+      "node_token": "E1fpwh57mie5rAkZjPmcuVAGnre",
+      "obj_token": "Irw1dU5ZSonKf3xq0qIc95pxnhd"
+    },
+    "docs/04-interview": {
+      "node_token": "YjzEw764wiJh6LksQ7UcFHZan8b",
+      "obj_token": "YngBdJONwoHG7qxEZdMc2TvwnDg"
+    },
+    "docs/04-interview/basics": {
+      "node_token": "Vk6bwu6x1i214yk7RzUcan3mnPg",
+      "obj_token": "YhXMd9pyUoP2HLxFEiAcaiO3nqb"
+    },
+    "docs/04-interview/behavioral": {
+      "node_token": "NYb3wCsvYi9cKakQvYzcvLmOnCg",
+      "obj_token": "CKQBdWK9CoTKRUx5bGRcGUTTnXf"
+    },
+    "docs/04-interview/case-analysis": {
+      "node_token": "BCM0whMebiIWDxkROXXcnLs7njb",
+      "obj_token": "LVoLdJIJioAupgx8yJzczulnnfa"
+    },
+    "docs/04-interview/experiences": {
+      "node_token": "UZ6nwq7V0i1a1LkmSvDc1NmMnSc",
+      "obj_token": "Lw4HdCV9Poml7gxkB1lc3LsHnUd"
+    },
+    "docs/04-interview/product-design": {
+      "node_token": "X9LTwuPADilp3CkOFuOcxOPxnFh",
+      "obj_token": "OQnadf8QYotLCyx49TTcIq1xnec"
+    },
+    "docs/05-resources": {
+      "node_token": "PQHYwMBeKi3c1IkQtGKcfLOXnkg",
+      "obj_token": "HFbldB9sDoxdpcxsjcRcB9JpnEb"
+    },
+    "docs/00-roadmap/getting-started.md": {
+      "node_token": "A57CwBbDXiHoDyk91v7ctTJlnQi",
+      "obj_token": "QOXNdg2aDoJV0execxzcOpLOnoc"
+    },
+    "docs/01-ai-basics/glossary.md": {
+      "node_token": "CxORwkANhilyTdkpIVMc7TJvnFe",
+      "obj_token": "Uy9cd8cPIoUQTVxfNYocKRSandf"
+    },
+    "docs/01-ai-basics/llm/what-is-rag.md": {
+      "node_token": "V5G5w2g6oi3Hgbk7rwNcI4awnve",
+      "obj_token": "EAnpdvAGtodKCOxf61vcLAhun4g"
+    },
+    "docs/04-interview/basics/accuracy-vs-latency.md": {
+      "node_token": "JtzqwBUg6iVipdkVEE8coZdgnhg",
+      "obj_token": "HYfQd2oqHodUjqxzLqRcwBkonKd"
+    },
+    "docs/04-interview/basics/agent-vs-chatbot.md": {
+      "node_token": "Jf0kwuvPziVBWBkHhlFcl6BdnDb",
+      "obj_token": "JiiZdqL5ZoIdJ5xelSFcDpKynzg"
+    },
+    "docs/04-interview/basics/agentic-workflows.md": {
+      "node_token": "OEmXw5ExUimHedkjBnecpxUGnwc",
+      "obj_token": "LwE7dlXWpovsQIxsWjzcQ9JunJc"
+    },
+    "docs/04-interview/basics/ai-blackbox-trust.md": {
+      "node_token": "JkTbwPMZuiI11ikjThTcPBnonfc",
+      "obj_token": "KnP8dSsQhoxU2Mxjso5cmwAbnrc"
+    },
+    "docs/04-interview/basics/chain-of-thought.md": {
+      "node_token": "SSqMwR1ASi0cJykSFaYcsFNsnRc",
+      "obj_token": "Oc4Sdzu0voisSmxGCcKcwsqfnhh"
+    },
+    "docs/04-interview/basics/context-window-and-memory.md": {
+      "node_token": "HBTowIFeciZh9rk2aVCcTTl4nYc",
+      "obj_token": "Z28kdHko1oAxPKxEBL1ct6BvnMf"
+    },
+    "docs/04-interview/basics/data-flywheel.md": {
+      "node_token": "QpdWwqPjxivAAXkA6dKcH1aYnCl",
+      "obj_token": "BrV9dKOlSoUS4txXFRmcuaODnsf"
+    },
+    "docs/04-interview/basics/hallucination-mitigation.md": {
+      "node_token": "F1ZIwFya0i0dbyk3TO9c3roPnId",
+      "obj_token": "I0b2dEqcaoCzYWxYKvrcPFiZnCg"
+    },
+    "docs/04-interview/basics/llm-output-randomness.md": {
+      "node_token": "DHLaw4jT2iTBYikvIXncltFinnd",
+      "obj_token": "GtkadHUV8oxbL1xMrSDcGCslnGf"
+    },
+    "docs/04-interview/basics/lora-vs-full-finetuning.md": {
+      "node_token": "DwWtwINVqi7MM7kFTrmc7vednNd",
+      "obj_token": "Gn8qdDixQoT2A4x38bDcISyznwc"
+    },
+    "docs/04-interview/basics/model-evaluation-system.md": {
+      "node_token": "MS3vwAEbkislzTknFrYc74AenJf",
+      "obj_token": "S8EZdVCSboiK7qxb8rpcMdxan8e"
+    },
+    "docs/04-interview/basics/precision-vs-recall.md": {
+      "node_token": "DsBswfdP9iAacckyoSNc8vdtnCd",
+      "obj_token": "MQ4idCR2QoUdJIxX8TOcwjocn6b"
+    },
+    "docs/04-interview/basics/pretrain-finetune-sft.md": {
+      "node_token": "FXMRwkWeoiMGM5kr9gxck9ERnZc",
+      "obj_token": "DzrTdRqXao2z1ZxixYqctqYpnve"
+    },
+    "docs/04-interview/basics/prompt-rag-sft-difference.md": {
+      "node_token": "Fuy1w4Pl5iZ5ULkTtb6cnZAynsh",
+      "obj_token": "QlrCdc90Uo4BlDxM4k0caPkonHe"
+    },
+    "docs/04-interview/basics/rag-kb-accuracy-evaluation.md": {
+      "node_token": "LTqswJUaNi5v9EkUx8CcD2eNnkd",
+      "obj_token": "Zi6Ddssm3odEqaxU1bVcULOAnhh"
+    },
+    "docs/04-interview/basics/rag-vs-finetuning.md": {
+      "node_token": "Xb16wPHFqiUP8XkwhYOcVCXbnOA",
+      "obj_token": "EqCodqA99oNAbvxhxJ0cwpTqnIe"
+    },
+    "docs/04-interview/basics/token-cost-and-experience.md": {
+      "node_token": "Wbxxw4ln8iSpU7k7Iadclof8nxu",
+      "obj_token": "DR39d1I7JoQKNKxnDBzcGsuGnVc"
+    },
+    "docs/04-interview/basics/when-to-use-ai.md": {
+      "node_token": "GCDZwKkDPiTyQWkTDdyck8wrn9b",
+      "obj_token": "DbmydeX6loAoe0xtdwEcwf5TnEh"
+    },
+    "docs/04-interview/behavioral/ai-pm-vs-traditional-pm.md": {
+      "node_token": "Ovjfwtzj1iqhfkkAwE7c6OhAnDe",
+      "obj_token": "BGr3dv3tDoZsFlxfdjNcd39onWe"
+    },
+    "docs/04-interview/behavioral/ai-solve-real-problem-story.md": {
+      "node_token": "Kua7wShybiOfWxkOj0xcmKpnneG",
+      "obj_token": "S9rFdFRpgo07L1xKzNscH9Qpnsc"
+    },
+    "docs/04-interview/behavioral/follow-ai-trends.md": {
+      "node_token": "FzaBwO04xiKfRYkURWRcqCaXnJh",
+      "obj_token": "VgpsdAkg3oJDbLx4vQZcHYeWn7d"
+    },
+    "docs/04-interview/behavioral/no-ai-background-why-qualified.md": {
+      "node_token": "II9Fw1P5Ki4PmTk6Kv6cmHqmnHb",
+      "obj_token": "SFikdtxLSo02YTx9GtncI0t7nph"
+    },
+    "docs/04-interview/behavioral/why-ai-product-manager.md": {
+      "node_token": "LwslwYGDTiMI4rkx1NQcL6HNnbg",
+      "obj_token": "Fsp6d7ZI7okqT3xTHfOcTCIinAc"
+    },
+    "docs/04-interview/case-analysis/ai-business-model-and-pricing.md": {
+      "node_token": "ELHswGnleiFZsqkr8mXc05CEn7d",
+      "obj_token": "UbS5dbzbRoim01xhloocHxMunve"
+    },
+    "docs/04-interview/case-analysis/ai-optimize-fresh-inventory.md": {
+      "node_token": "StK0w9nZliquHDkoYLxcq3hEnPe",
+      "obj_token": "O4YDdsVPUow26bxNeX0cyxqOnvb"
+    },
+    "docs/04-interview/case-analysis/estimate-daily-active-chat-cost.md": {
+      "node_token": "Bp0RwfDyLirrK5kiYJsct9h5ned",
+      "obj_token": "RmYadwFbao1RoIxtHpxc0fdUn6f"
+    },
+    "docs/04-interview/case-analysis/quantify-model-accuracy-value.md": {
+      "node_token": "J6kmw4SxaisgWfkj4yZczhuSnOd",
+      "obj_token": "IT7mdDCLuodMtlx7VNOcrgLVnDh"
+    },
+    "docs/04-interview/case-analysis/reduce-llm-cost-10x.md": {
+      "node_token": "Co0jw4swviVLxvk0BnncqJLTnzd",
+      "obj_token": "QYWadQNVCo4e3DxQerbc0go1n66"
+    },
+    "docs/04-interview/experiences/ant-ai-customer-service-pm-202607.md": {
+      "node_token": "BYFTw10E4iaRvbk83kvcuDG9n6b",
+      "obj_token": "Hg0LdGfRbo41wwxXesCcOjhon1T"
+    },
+    "docs/04-interview/experiences/baidu-llm-pm-202604.md": {
+      "node_token": "WLRhwp0UQiQivAkVl8PclWjonCZ",
+      "obj_token": "W7oEdG543ooE3VxrfiNclGzJnsf"
+    },
+    "docs/04-interview/experiences/bilibili-multimodal-ai-pm-202607.md": {
+      "node_token": "ARxQw09GsiOunNkzdvQcZOZKnHe",
+      "obj_token": "V7nodPd1uoJzBCxt3oQcAMisnyb"
+    },
+    "docs/04-interview/experiences/bytedance-kol-agent-pm-202607.md": {
+      "node_token": "CbVWw8HcYiB75RkMh5lcJUqynOe",
+      "obj_token": "TvZRdAiL0o6Ye5x4oWfcyjbgn4d"
+    },
+    "docs/04-interview/experiences/changjietong-ai-pm-202607.md": {
+      "node_token": "IxidwyXlNijteJk8RKzc174Wn4c",
+      "obj_token": "JaYzdDoDWouSlIxF6jlclyWsnsd"
+    },
+    "docs/04-interview/experiences/douyin-ai-pm-202602.md": {
+      "node_token": "WD91wROq2iR4gtk3NeocFWQtnfp",
+      "obj_token": "YH1Gd8Wf7o6OTkxsgSpchsV3nub"
+    },
+    "docs/04-interview/experiences/hisense-ai-pm-202607.md": {
+      "node_token": "RPPQwhez9i7SJBkEPigcBCtbnKg",
+      "obj_token": "G58DdhsuXoqDbDx4BCQc2QHvnib"
+    },
+    "docs/04-interview/experiences/iflytek-pm-202511.md": {
+      "node_token": "MngjwL6KIirMFukSEl2c9OSSnFc",
+      "obj_token": "IvjtdTNU3oBQJgxVsBMcgVqcnKf"
+    },
+    "docs/04-interview/experiences/lixiang-ai-pm-202607.md": {
+      "node_token": "PhvJwtFnqiTI6JksECvcG1JmnUh",
+      "obj_token": "RHTUdExDYorh1SxFo9kcsWTWnph"
+    },
+    "docs/04-interview/experiences/meituan-ai-pm-intern-202607.md": {
+      "node_token": "R8Vhwrexyijw4mkPDljceUqhn6d",
+      "obj_token": "G1GVdiWspozIZQxxbu6cfoxQnBf"
+    },
+    "docs/04-interview/experiences/sensetime-ai-pm-202607.md": {
+      "node_token": "DHLfwI4KviMb7xkbgwbc68cenvc",
+      "obj_token": "KNTmdUoz3oNhFUxpdi8c771QnVd"
+    },
+    "docs/04-interview/experiences/xiaomi-ai-pm-202510.md": {
+      "node_token": "T5JvwWb5YiirRhkrHbCcSzk8nVy",
+      "obj_token": "IDTAd32u3oltXvxvUpkcMOmXnDe"
+    },
+    "docs/04-interview/product-design/ai-customer-service-resolution-rate.md": {
+      "node_token": "HXdqwBHtDiXq3zkrYxacZn0JnOg",
+      "obj_token": "SMZRdwacuoRiQ7xnvJHcsIOenrd"
+    },
+    "docs/04-interview/product-design/ai-product-pmf-coldstart-fallback.md": {
+      "node_token": "YE6zw1DsgigpYkk75Ttc0qclnqd",
+      "obj_token": "Dv6ndEdTdoc3QQxexPvcj0Ykn9f"
+    },
+    "docs/04-interview/product-design/competitive-differentiation.md": {
+      "node_token": "SNlTwjS7nihwvnk1mLUcc1AjnJe",
+      "obj_token": "RdF8dYdkdoS29sxFPtFcb2zZnPh"
+    },
+    "docs/04-interview/product-design/design-ai-product-for-elderly.md": {
+      "node_token": "EYnwwrG9MiBSvukWdlzc3AkTnuh",
+      "obj_token": "DTvPdxkHgoSnAlxx6CHc6shunoe"
+    },
+    "docs/04-interview/product-design/design-ecommerce-ai-shopping-guide.md": {
+      "node_token": "RFMHwq6qJii89JkSptXclXHnn6e",
+      "obj_token": "QWtid5hSXoc8rKxGlsfcidDPnnc"
+    },
+    "docs/04-interview/product-design/design-ecommerce-customer-service-bot.md": {
+      "node_token": "Li2pwWHZXiD7XIk00nacqfl7n6f",
+      "obj_token": "OLyJd05gWo4PsjxsZ2Sc3kgBnIw"
+    },
+    "docs/04-interview/product-design/design-wechat-ai-feature.md": {
+      "node_token": "AxHJwBeQZiaviIkc38XcfKQQnWg",
+      "obj_token": "EldQd0G2uo8qz0xeYD1cPYzBn2f"
+    },
+    "docs/04-interview/product-design/real-vs-fake-ai-demand.md": {
+      "node_token": "GRcMwH0gAiRFzTkOKsncrBJynqe",
+      "obj_token": "HUA4dDdd2oxB1Vx8aRGc1U6Vndb"
+    },
+    "docs/05-resources/books.md": {
+      "node_token": "MbuDw2a0eiuScjkYYI8cPEO5nwg",
+      "obj_token": "GCkkdQsqfoTZRDxpnqacZTNTnhd"
+    },
+    "docs/05-resources/courses.md": {
+      "node_token": "PPlxwUW3Gii6U8k4hwAcNChWnah",
+      "obj_token": "OZkudxsOJogYH0xOUu7cewhUnId"
+    },
+    "docs/05-resources/newsletters-and-blogs.md": {
+      "node_token": "OIW3wJ6IgikI2PkrzkwcfcdOnlg",
+      "obj_token": "RbZFddT7koY9PwxjPX0cx19EnQd"
+    },
+    "docs/05-resources/tools.md": {
+      "node_token": "BYCfwbWSDihaxekIRmccqhmLnBh",
+      "obj_token": "NDBeddKmvoJIVyxzflgcOvVPnzZ"
+    },
+    "docs/00-roadmap/ai-pm-capability-model.md": {
+      "node_token": "ZdkPwds1Wi8uZpk9zbfcdUVYnfc",
+      "obj_token": "Qf1Hdn8VLoDydKxCek7cHWhfnrb"
+    },
+    "docs/00-roadmap/ai-pm-job-types.md": {
+      "node_token": "JHZpwWcQsilFMbkpdSFcKDabnoH",
+      "obj_token": "UCondpGnVoR7nxxnq42cYrsAn2f"
+    },
+    "docs/00-roadmap/transition-guide.md": {
+      "node_token": "QTnowlhjyiq0WHkjK4scoUt1n0g",
+      "obj_token": "NYIZdZu1jo2ETyxY5LJcEfIQnwg"
+    },
+    "docs/01-ai-basics/llm/agent-basics.md": {
+      "node_token": "KGX2whELvi1rmdkEMU4cccLJnWh",
+      "obj_token": "CCnAd2QZjob0h2xw643cwKhQnrd"
+    },
+    "docs/01-ai-basics/llm/context-window.md": {
+      "node_token": "UWUUwRwYhie6PvkBiUPcpKXBnah",
+      "obj_token": "EHMhdPxvZopqv0xbLErco3RpnVe"
+    },
+    "docs/01-ai-basics/llm/hallucination.md": {
+      "node_token": "SNOOw7BHyi0PIHkwtJ4cQDMAnSb",
+      "obj_token": "OQsZdyI3XoCzYCx3eWrcJc9GnDh"
+    },
+    "docs/01-ai-basics/llm/how-llm-works.md": {
+      "node_token": "HLCTwLhPii3OjzkjheicgOfGnee",
+      "obj_token": "Fuqgd1aTwohoaTxLcG2ckcQGnyd"
+    },
+    "docs/01-ai-basics/llm/model-landscape.md": {
+      "node_token": "SA7rwt25jipindktwshcWU1In7e",
+      "obj_token": "ZgkZdHIeCo5zNlxeNFpcJZJ0nnb"
+    },
+    "docs/01-ai-basics/llm/prompt-rag-finetuning.md": {
+      "node_token": "NDvCwgfAui90ZAkGb7XcQwy1n4e",
+      "obj_token": "LJJTdFcuBozWUYx2sT8cgZEdnid"
+    },
+    "docs/01-ai-basics/machine-learning/business-problem-to-ml.md": {
+      "node_token": "ETtJwPLFdiAvMRkJzbCcoZ52nze",
+      "obj_token": "Ns2wdrM49oz96vxAmMYc5Vj3nke"
+    },
+    "docs/01-ai-basics/machine-learning/datasets-and-overfitting.md": {
+      "node_token": "J7Abwytdfi0AERkyRAvcaAxynRc",
+      "obj_token": "L2GQdj10Lo77AaxtJVFcVgU8nbh"
+    },
+    "docs/01-ai-basics/machine-learning/deep-learning-brief-history.md": {
+      "node_token": "Ry2SwmwtliaDOkkPGiWcXGQcnAc",
+      "obj_token": "TzIMdT7yioHMMfxqJXCcJluTn4c"
+    },
+    "docs/01-ai-basics/machine-learning/ml-three-paradigms.md": {
+      "node_token": "FQ9lwgvLcivwiRk1XGic1nXZnh3",
+      "obj_token": "Phu2dANlnosNlgxo4Pacx2yonze"
+    },
+    "docs/01-ai-basics/prompt-engineering/prompt-basics.md": {
+      "node_token": "GjtgwAYgviDctskLl5mcye5Cn7c",
+      "obj_token": "BrJadWKClogFiQxj0npcd1wTnGc"
+    },
+    "docs/01-ai-basics/prompt-engineering/structured-output.md": {
+      "node_token": "QnovwKXeXiULgJk12VYccdlenaf",
+      "obj_token": "DPbgd5DNMobTBVxVykNc9hIQn5f"
+    },
+    "docs/01-ai-basics/prompt-engineering/system-prompt-and-prompt-ops.md": {
+      "node_token": "LfaIwCB8MiQltUkKCjjcU6rXnsg",
+      "obj_token": "Xuivd0fmfo3xd7xg8hqcNckcnGb"
+    },
+    "docs/02-pm-skills/cost-and-tech/cost-optimization.md": {
+      "node_token": "MqKSwwHPXidQJ9kQ3k1cyrItnyc",
+      "obj_token": "VH6rdzzxtonymOxr9hHcuLiznBg"
+    },
+    "docs/02-pm-skills/cost-and-tech/llm-cost-101.md": {
+      "node_token": "APRbwEXHEio14SkhITVc82dtnnf",
+      "obj_token": "UP09dMOQEoXZgNxJzsdcBiKznWd"
+    },
+    "docs/02-pm-skills/cost-and-tech/model-selection-framework.md": {
+      "node_token": "KPpBwRooTiimBtk0ce3ceOMBnTd",
+      "obj_token": "Aqsodf3DkoYtaQxDhK1cczvQnrn"
+    },
+    "docs/02-pm-skills/data-annotation/annotation-guideline.md": {
+      "node_token": "XRvmwR14tiWz2TkBzdAcFeoGnfb",
+      "obj_token": "Qx8MdKSwloF4mOxO4QRcJvrInih"
+    },
+    "docs/02-pm-skills/data-annotation/cold-start-and-data-flywheel.md": {
+      "node_token": "Q5E5wZLQsiZd1bkLOkVcvlGMnPb",
+      "obj_token": "NyPsd2vbXoXibfxkk4mcOcBJn5f"
+    },
+    "docs/02-pm-skills/data-annotation/data-compliance.md": {
+      "node_token": "TRK7wBG39isKMJkuOCrcmV3pnag",
+      "obj_token": "JrledskBEoYjrPxXSI7cFgjAngb"
+    },
+    "docs/02-pm-skills/model-evaluation/badcase-analysis.md": {
+      "node_token": "NeLLwzQF2iDJWXk6i6BcgNIMnVf",
+      "obj_token": "XGCWdii26oDmzBxL8SkcsBOqnVf"
+    },
+    "docs/02-pm-skills/model-evaluation/build-your-eval-set.md": {
+      "node_token": "LT97wX8hRinsrskkcvNclavansd",
+      "obj_token": "BL1fd5ytpoo9wMxLI5hc9TQ3nsd"
+    },
+    "docs/02-pm-skills/model-evaluation/llm-as-a-judge.md": {
+      "node_token": "MGDwwYPPSiz2f6kAGl5chTyCnzg",
+      "obj_token": "ZxCGdaQKNoUYMoxi26pcs7g9nId"
+    },
+    "docs/02-pm-skills/prd-and-design/ai-prd-guide.md": {
+      "node_token": "Lwwow1yQligqENkfL4Lc22tCnFc",
+      "obj_token": "ATP1dgu12oGgOZxWcdXc0da8nFb"
+    },
+    "docs/02-pm-skills/prd-and-design/fallback-and-feedback-design.md": {
+      "node_token": "B8mdwNaRgiifs1kg5AxcCeAyn9g",
+      "obj_token": "G86mdHpWHolI9QxD4JRcjJy7nMh"
+    },
+    "docs/03-case-studies/aigc/ai-video-generation.md": {
+      "node_token": "JribwiQMViOo0tktLTBcefDsnO0",
+      "obj_token": "A3aRdvLMho2bFmxOZYrcCGVRnVh"
+    },
+    "docs/03-case-studies/chatbot-assistant/chatgpt.md": {
+      "node_token": "FiSKwOPvYiCC3hkqDxZcc8dEnRd",
+      "obj_token": "PIF2dAzEPoxMkBxGPb7cQKVlnYc"
+    },
+    "docs/03-case-studies/search-and-rec/perplexity.md": {
+      "node_token": "O7hFwaSydi8OtFkMiUYcJSzNnee",
+      "obj_token": "E7gAd2jYooyBVHx6nedchSGTn7f"
+    },
+    "docs/03-case-studies/vertical/ai-customer-service.md": {
+      "node_token": "AiAawbfWFiveaCkrZmNclZujndg",
+      "obj_token": "X7oXdudIIoOKz0xgEpocnAInnGb"
+    },
+    "docs/04-interview/case-analysis/ai-search-north-star-metric.md": {
+      "node_token": "WFhrwHwXCionBJkWAVJc1Fshn9f",
+      "obj_token": "QbkIdqLtooFHhMxGUnscffs8nOf"
+    },
+    "docs/04-interview/case-analysis/analyze-a-good-ai-product.md": {
+      "node_token": "EwOmwaqssipOVokAq5kctkEPnhe",
+      "obj_token": "FTJkdYLgcogWf6x9T4dcoQXEn8e"
+    },
+    "docs/01-ai-basics/llm/transformer-architecture.md": {
+      "node_token": "SXcwwzmtdiMU30k9UTXcFTLYnSf",
+      "obj_token": "CwuPd3NtHoCo0UxrvRmcVAnrnjb"
+    },
+    "docs/01-ai-basics/llm/mcp.md": {
+      "node_token": "K0LRwar10iORJkkw3crcJv6Nn2e",
+      "obj_token": "LPUjdcpmTomfHNxUkYFc1Bu6nfd"
+    },
+    "docs/01-ai-basics/llm/agent-skills.md": {
+      "node_token": "S9s4wgimuiYUNek1sKMcpH12nke",
+      "obj_token": "QOXid5VFbo9K1Ux36fIca4vbnvf"
+    },
+    "docs/02-pm-skills/vibe-coding": {
+      "node_token": "Dd0OwuQZCiqWC9kxyVvcuyRAnch",
+      "obj_token": "LR5BdcB1Ho4EWbx9GbecdYtsnkd"
+    },
+    "docs/02-pm-skills/vibe-coding/what-is-vibe-coding.md": {
+      "node_token": "C6AiwSmKsifK8xkNmszcwLAEncg",
+      "obj_token": "R6McdR8vgo2Srsxso3IcfHu2nUb"
+    },
+    "docs/02-pm-skills/vibe-coding/tool-landscape.md": {
+      "node_token": "HigxwODuEiFsEKkPVUwc4KJznoe",
+      "obj_token": "N6nHdDVdJo4FP8xzp7JcFtflnbh"
+    },
+    "docs/02-pm-skills/vibe-coding/from-idea-to-demo.md": {
+      "node_token": "YLL0w8sASi57nHkFRkVcnnocnog",
+      "obj_token": "BtnQdrOwuouFYVxfLX4cE6ywnie"
+    },
+    "docs/04-interview/basics/ai-pm-interview-30-summary-202604.md": {
+      "node_token": "MN9awD9ZJiPJvFk25SAcbZ59n1c",
+      "obj_token": "JJf8dDi8FoVVHOxngJlc17qGn6f"
+    },
+    "docs/04-interview/experiences/bytedance-ai-agent-pm-intern-202604.md": {
+      "node_token": "WTIZwbWIXi18UTkb621cG4pTnmh",
+      "obj_token": "V5AddZwAMoshtcxuvTXcbMvnn2f"
+    },
+    "docs/04-interview/experiences/bytedance-ai-pm-social-202605.md": {
+      "node_token": "F48Lw4M9MiJtXNkBWodcKMOcnDh",
+      "obj_token": "SspsdJYmAosiP6x467icewNyn6b"
+    },
+    "docs/04-interview/experiences/kimi-ai-pm-202605.md": {
+      "node_token": "KUSCwYSpxijRFhkdqK6cspSfn5f",
+      "obj_token": "LF6hdpa2goQP0QxtC6bcIgMynbf"
+    },
+    "docs/04-interview/experiences/meituan-ai-pm-second-round-202605.md": {
+      "node_token": "W3o0wgT6ai5v8fk23iLck4eznyf",
+      "obj_token": "Mdn8d4VhLoIKvFxGotNc5QiSnee"
+    },
+    "docs/04-interview/experiences/startup-ai-pm-interview-202605.md": {
+      "node_token": "GYcqwOtbFiTAeYkOxfzcPKz6nId",
+      "obj_token": "JfvLdq0h7oDlrbxhsJpcvtmanDf"
+    },
+    "docs/04-interview/experiences/zhipu-ai-pm-business-202601.md": {
+      "node_token": "KMIKwHw7xiWEEWkUgQzc8pEgnqa",
+      "obj_token": "QhrgdGCjNoiKZax4fMKcy06on3g"
+    }
+  }
+}
