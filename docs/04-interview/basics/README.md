@@ -22,3 +22,4 @@
 - [大模型的上下文窗口和记忆机制是什么?](context-window-and-memory.md)
 - [精确率和召回率的区别?举一个产品中需要权衡的例子](precision-vs-recall.md)
 - [为什么大模型的输出每次都不一样?](llm-output-randomness.md)
+- [AI 产品经理 30 多次面试经验总结](ai-pm-interview-30-summary-202604.md)

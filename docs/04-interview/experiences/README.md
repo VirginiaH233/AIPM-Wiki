@@ -14,6 +14,12 @@
 
 | 公司 | 岗位 | 类型 | 文件 |
 |------|------|------|------|
+| 智谱 AI | AI 产品经理（业务面） | 校招 | [zhipu-ai-pm-business-202601.md](./zhipu-ai-pm-business-202601.md) |
+| 字节跳动 | AI Agent 产品经理 | 暑期实习 | [bytedance-ai-agent-pm-intern-202604.md](./bytedance-ai-agent-pm-intern-202604.md) |
+| 字节跳动 | AI 产品经理 | 社招 | [bytedance-ai-pm-social-202605.md](./bytedance-ai-pm-social-202605.md) |
+| 美团 | 到店 AI 产品经理（二面） | 社招/春招 | [meituan-ai-pm-second-round-202605.md](./meituan-ai-pm-second-round-202605.md) |
+| Kimi | AI 产品经理 | 未披露 | [kimi-ai-pm-202605.md](./kimi-ai-pm-202605.md) |
+| 中小厂/初创 | AI 产品经理面试经验摘录 | 未披露 | [startup-ai-pm-interview-202605.md](./startup-ai-pm-interview-202605.md) |
 | 抖音 | AI 产品 | 校招 | [douyin-ai-pm-202602.md](./douyin-ai-pm-202602.md) |
 | 百度 | AI 大模型产品 | 实习 | [baidu-llm-pm-202604.md](./baidu-llm-pm-202604.md) |
 | 小米 | AI 产品经理 | 校招/实习 | [xiaomi-ai-pm-202510.md](./xiaomi-ai-pm-202510.md) |
