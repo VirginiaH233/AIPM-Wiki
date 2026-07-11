@@ -65,6 +65,7 @@ Anthropic 的可解释性研究团队通过追踪 Claude 内部的计算过程�
 
 ## 相关阅读
 
+- B站:[AI 为什么会出现幻觉？](https://www.bilibili.com/video/BV1CmK8zWEHY)（漫士沉思录，~45 万播放）
 - [大模型是怎么"想"的:预测下一个 token 的直观解释](how-llm-works.md)
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
 - [上下文窗口:限制、成本与产品设计影响](context-window.md)

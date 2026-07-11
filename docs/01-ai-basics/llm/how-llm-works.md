@@ -69,6 +69,8 @@ Anthropic 的可解释性团队通过追踪模型内部的计算过程发现,大
 
 ## 相关阅读
 
+- B站:[Karpathy 深入探索大语言模型](https://www.bilibili.com/video/BV16cNEeXEer)（KrillinAI小林，~34 万播放）— 从训练到推理的「一小时地图」
+- [Transformer 架构:大模型的地基(PM 版)](transformer-architecture.md)
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
 - [上下文窗口:限制、成本与产品设计影响](context-window.md)
 - [幻觉问题:成因与产品层面的缓解手段](hallucination.md)

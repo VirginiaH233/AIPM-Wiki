@@ -67,7 +67,7 @@
 |------|------|------|
 | 第 1 周 | 通读 [01-ai-basics](../01-ai-basics/README.md),重点是大模型和 [RAG](../01-ai-basics/llm/what-is-rag.md) | 能不用术语讲清"大模型为什么会胡说八道" |
 | 第 2 周 | 注册 2-3 个主流大模型产品,每天用它们完成一个真实工作任务;同步刷 [术语表](../01-ai-basics/glossary.md) | 一份"AI 产品体验笔记" |
-| 第 3-4 周 | 用工作流平台(不需要写代码)搭一个基于 RAG 的小 demo,比如个人知识库问答 | 一个可演示的小 demo + 记录遇到的问题(检索不准、切片策略等) |
+| 第 3-4 周 | 跟着 [Vibe Coding 实战方法论](../02-pm-skills/vibe-coding/from-idea-to-demo.md) 搭一个基于 RAG 的小 demo,比如个人知识库问答;工具怎么选见 [工具盘点](../02-pm-skills/vibe-coding/tool-landscape.md) | 一个可演示的小 demo + 记录遇到的问题(检索不准、切片策略等) |
 
 ### 第 2 个月:补评估能力,做一次真实的产品分析
 

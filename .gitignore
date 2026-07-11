@@ -1,6 +1,9 @@
 # 调研原始素材(见 wiki-research skill),仅本地使用
 .research/
 
+# 网页文章暂存区(抓取的原始素材,待整理成正式 docs/ 内容),仅本地使用
+web-articles/
+
 # 本地一次性维护脚本
 .scripts/
 

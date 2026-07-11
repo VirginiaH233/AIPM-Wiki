@@ -30,9 +30,11 @@ Anthropic 在《Building Effective Agents》中给出关键区分:**工作流是
 - **深度研究 Agent(Deep Research)**:自主完成多轮搜索、阅读、交叉验证,产出带引用的报告,单次任务可自主运行数十分钟。
 - **多 Agent 协作**:复杂任务拆给多个专精子 Agent 并行处理再汇总,是 2026 年的另一重要方向。
 
-## 工具生态:MCP
+## 工具生态:MCP 与 Skills
 
-给 Agent 接入新工具曾是"N 个 Agent 对接 M 个工具"的重复开发难题。Anthropic 2024 年底推出的 **MCP(Model Context Protocol)** 把它标准化为"N+M":任意支持 MCP 的 Agent 都能连接任意支持 MCP 的工具。到 2026 年,MCP 已被 OpenAI、Google 等主流厂商采纳,并捐赠给 Linux 基金会下的 Agentic AI Foundation 中立治理,公开 MCP 服务器已有数千个。对 PM 而言,这意味着"给 Agent 接入新能力"很多时候变成了配置现成 MCP 服务器,而非专项开发。
+给 Agent 接入新工具曾是"N 个 Agent 对接 M 个工具"的重复开发难题。Anthropic 2024 年底推出的 **MCP(Model Context Protocol)** 把它标准化为"N+M":任意支持 MCP 的 Agent 都能连接任意支持 MCP 的工具。此后 MCP 被主流 AI 产品广泛采纳,并于 2025 年底捐赠给 Linux 基金会下的 Agentic AI Foundation 中立治理。对 PM 而言,这意味着"给 Agent 接入新能力"很多时候变成了配置现成 MCP 服务器,而非专项开发——机制、原语与选型见 [MCP 专文](mcp.md)。
+
+与之互补的是 **Agent Skills**:用可版本管理的文件夹打包「这类任务该怎么做」的程序性知识,按需加载进上下文。MCP 负责接到外部世界,Skills 负责沉淀操作手册——详见 [Agent Skills 一文](agent-skills.md)。
 
 ## 失败模式与设计考量
 
@@ -51,6 +53,11 @@ Anthropic 在《Building Effective Agents》中给出关键区分:**工作流是
 
 ## 相关阅读
 
+- B站:[从 LLM 到 Agent Skill](https://www.bilibili.com/video/BV1E7wtzaEdq)（马克的技术工作坊，~135 万播放）— 一条线串起 Agent 核心概念
+- B站:[Agent、Skill、Harness 一次讲明白](https://www.bilibili.com/video/BV1YRG46eE1n)（通义实验室，~21 万播放）
+- B站:[一口气拆穿 Skill/MCP/RAG/Agent 底层逻辑](https://www.bilibili.com/video/BV1ojfDBSEPv)（飞天闪客，~88 万播放）
+- [MCP:给 Agent 接上外部世界的「USB-C」](mcp.md)
+- [Agent Skills:给 Agent 装上可复用的「操作手册」](agent-skills.md)
 - [什么是 Agent?它和 Chatbot 的区别是什么?](../../04-interview/basics/agent-vs-chatbot.md)
 - [什么是 Agentic Workflows?](../../04-interview/basics/agentic-workflows.md)
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)

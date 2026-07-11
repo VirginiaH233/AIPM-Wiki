@@ -45,5 +45,9 @@ RAG 一次性缓解这三个问题:答案基于检索到的真实材料生成,�
 
 ## 相关阅读
 
+- B站:[RAG 工作机制详解](https://www.bilibili.com/video/BV1JLN2z4EZQ)（马克的技术工作坊，~33 万播放）— 知识库全流程
+- B站:[RAG、Memory 与向量检索原理](https://www.bilibili.com/video/BV1RCGR6yEEw)（小白debug，~6.5 万播放）
+- B站:[向量数据库技术鉴赏（上）](https://www.bilibili.com/video/BV11a4y1c7SW)（Ele实验室，~28 万播放）
+- [Prompt、RAG、微调:三种让模型「更懂你」的手段](prompt-rag-finetuning.md)
 - [AI 术语速查表](../glossary.md)
 - 面试题:[04-interview/basics](../../04-interview/basics/README.md)

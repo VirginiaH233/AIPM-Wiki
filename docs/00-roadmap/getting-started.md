@@ -9,7 +9,7 @@
 
 1. 通读 [01-ai-basics](../01-ai-basics/README.md),重点是大模型部分
 2. 亲自上手:注册 2-3 个主流大模型产品,每天用它们完成真实任务
-3. 动手做一个小 Demo(不需要写代码,用工作流平台即可):比如一个基于 RAG 的问答机器人
+3. 动手做一个小 Demo(不需要会写代码,用 AI 编程工具即可):比如一个基于 RAG 的问答机器人,方法见 [Vibe Coding 实战方法论](../02-pm-skills/vibe-coding/from-idea-to-demo.md)
 4. 随时查 [术语表](../01-ai-basics/glossary.md),把不懂的词消灭掉
 
 **自测标准**:能向非技术朋友讲清楚"大模型为什么会胡说八道(幻觉)"和"RAG 是怎么缓解它的"。
@@ -34,4 +34,4 @@
 
 1. 系统刷 [04-interview](../04-interview/README.md) 题库,先概念题后设计题
 2. 读目标公司的 [面经](../04-interview/experiences/README.md)
-3. 准备好自己的"作品":哪怕只是一个 Prompt 工作流 Demo + 一份分析文档,也远胜空谈
+3. 准备好自己的"作品":哪怕只是一个 [Vibe Coding](../02-pm-skills/vibe-coding/README.md) 做出的小 Demo + 一份分析文档,也远胜空谈

@@ -39,6 +39,18 @@
 - 🔍 **查概念?** 打开 [AI 术语速查表](docs/01-ai-basics/glossary.md)
 - 💰 **算成本 / 做选型?** 见 [成本测算入门](docs/02-pm-skills/cost-and-tech/llm-cost-101.md) 与 [2026 模型盘点](docs/01-ai-basics/llm/model-landscape.md)(数据核实至 2026-07)
 
+## 🧑‍💻 推荐使用方式:Obsidian + Claudian
+
+本仓库是一个 [Obsidian](https://obsidian.md) vault,用 Markdown + 双向链接组织内容。直接在 GitHub 网页上阅读完全没问题,但如果想要最佳体验——AI 问答检索、双向链接跳转、知识图谱可视化——推荐这样打开:
+
+1. 安装 [Obsidian](https://obsidian.md)(免费)
+2. `git clone` 本仓库,或直接下载 zip 解压到本地
+3. Obsidian → **Open folder as vault** → 选择本仓库根目录
+4. 设置 → **Community plugins** → 关闭 Restricted mode → **Browse** → 搜索 **Claudian**(作者 YishenTu,注意社区里有几个近名插件)→ Install → Enable
+5. 现在可以直接在侧边栏用 AI 问答整个知识库、点击 `[[双向链接]]` 在文章间跳转、打开 Graph view 看知识网络全貌
+
+> 💡 [Claudian](https://github.com/YishenTu/claudian) 是 Obsidian 官方社区插件市场里的一个插件,能让你在 vault 内直接和 Claude 对话、检索笔记。本仓库的大部分内容正是用 Obsidian + Claudian 协作撰写和维护的——这也是我们把它称为"最佳使用方式"的原因。
+
 ## 📖 内容导航
 
 | 板块 | 内容 | 适合谁 |

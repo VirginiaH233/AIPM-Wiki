@@ -91,6 +91,8 @@
 
 ## 相关阅读
 
+- B站:[什么是人工智能/机器学习/深度学习/神经网络?](https://www.bilibili.com/video/BV1vJ41147QU)（Ross-Ning，~29 万播放）
+- B站:[20 分钟从机器学习到深度学习](https://www.bilibili.com/video/BV1vZHmzvE6D)（数据范儿_范老师，~9 万播放）
 - [分类、回归、聚类:业务问题如何映射到 ML 问题](business-problem-to-ml.md)
 - [训练集/验证集/测试集与过拟合:为什么 demo 惊艳、上线拉胯](datasets-and-overfitting.md)
 - [深度学习与神经网络:从感知机到 Transformer 的极简史](deep-learning-brief-history.md)

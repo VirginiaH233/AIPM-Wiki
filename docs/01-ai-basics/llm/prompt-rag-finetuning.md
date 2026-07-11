@@ -57,6 +57,8 @@
 
 ## 相关阅读
 
+- B站:[微调：从原理到实操](https://www.bilibili.com/video/BV13QFxzCEXb)（费曼学徒冬瓜，~6.4 万播放）
+- B站:[大模型微调看这个视频就够了](https://www.bilibili.com/video/BV1gmWDeLEMZ)（RethinkFun，~5.9 万播放）
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
 - [面试题:Prompt、RAG、SFT 分别是什么?有什么区别?](../../04-interview/basics/prompt-rag-sft-difference.md)
 - [面试题:RAG 和微调有什么区别?什么场景该用哪个?](../../04-interview/basics/rag-vs-finetuning.md)

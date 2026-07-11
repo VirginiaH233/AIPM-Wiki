@@ -47,7 +47,7 @@ Google 团队在论文《Attention Is All You Need》中提出了 Transformer �
 
 **解决了什么问题**:RNN/LSTM 处理长文本时,一是必须按顺序计算,训练速度慢,难以利用 GPU 并行加速;二是文本太长时,早期信息还是容易被"冲淡"。Transformer 用完全并行的注意力机制同时解决了这两个问题,让"用超大规模数据训练超大规模模型"第一次在工程上变得可行。
 
-**解锁了什么**:今天几乎所有主流大语言模型(GPT 系列、Claude、Gemini 等)的底层架构都是 Transformer 或它的变体。可以说,没有 Transformer,就没有后来的 ChatGPT。
+**解锁了什么**:今天几乎所有主流大语言模型(GPT 系列、Claude、Gemini 等)的底层架构都是 Transformer 或它的变体。可以说,没有 Transformer,就没有后来的 ChatGPT。想进一步理解注意力机制、Encoder/Decoder 与 Decoder-only 的区别,以及这对上下文窗口和成本的含义,见[Transformer 架构:大模型的地基(PM 版)](../llm/transformer-architecture.md)。
 
 ## 2018-2020:GPT-1 到 GPT-3——"预训练 + 规模"范式的确立
 
@@ -95,6 +95,8 @@ OpenAI 沿着 Transformer 架构提出 GPT(Generative Pre-trained Transformer)�
 
 ## 相关阅读
 
+- B站:[20 分钟从机器学习到深度学习](https://www.bilibili.com/video/BV1vZHmzvE6D)（数据范儿_范老师，~9 万播放）— AI 发展史大白话版
+- B站:[90 分钟搞懂人工智能和神经网络](https://www.bilibili.com/video/BV1atCRYsE7x)（漫士沉思录，~131 万播放）
 - [机器学习三大范式:监督学习 / 无监督学习 / 强化学习](ml-three-paradigms.md)
 - [预训练、微调、SFT 的区别与应用场景](../../04-interview/basics/pretrain-finetune-sft.md)
 - [什么是 RAG:检索增强生成入门](../llm/what-is-rag.md)
