@@ -1,7 +1,7 @@
 {
   "space_id": "7660066449016261582",
   "wiki_domain": "https://my.feishu.cn",
-  "last_synced_commit": "c4720158d1a7429e811d6dde6875a1e2bda0c284",
+  "last_synced_commit": "95b400daa82ee58cc274a1828e9620a7025004ef",
   "nodes": {
     "README.md": {
       "node_token": "JKW1wA6uRig0qIkqIeScXLEon1b",
@@ -502,6 +502,130 @@
     "docs/04-interview/experiences/zhipu-ai-pm-business-202601.md": {
       "node_token": "KMIKwHw7xiWEEWkUgQzc8pEgnqa",
       "obj_token": "QhrgdGCjNoiKZax4fMKcy06on3g"
+    },
+    "docs/02-pm-skills/ai-product-operations": {
+      "node_token": "LupLwQAsoidTMmk8c4EccV8enSe",
+      "obj_token": "JZO1dOsNLoRgOhx0hWUcwtnfnuo"
+    },
+    "docs/04-interview/preparation": {
+      "node_token": "UzlwwEwplihaDDkyZD0cfT2Lnlg",
+      "obj_token": "BB65dyCVwonPMhx9WUdcgiYjnPd"
+    },
+    "docs/01-ai-basics/machine-learning/precision-vs-recall.md": {
+      "node_token": "EidewhcrxiAKFNkuqBic3RTenVh",
+      "obj_token": "HBurdeHNioFZIFxtosXcHx3unne"
+    },
+    "docs/01-ai-basics/prompt-engineering/chain-of-thought.md": {
+      "node_token": "WRsTw5huCiBvEnknjsecXwGNnNg",
+      "obj_token": "YqWQd8anoonpsKxmsjScxJB9nIb"
+    },
+    "docs/02-pm-skills/ai-product-operations/agent-evaluation-and-observability.md": {
+      "node_token": "XuMhwO3WjiPAyAk1drCcjECen7e",
+      "obj_token": "XxuvdC2Tso5NuDxv2Pyc7GZin0b"
+    },
+    "docs/02-pm-skills/ai-product-operations/agent-product-design.md": {
+      "node_token": "ObzIwAK9Gi9eKMkb213c5uS3nUb",
+      "obj_token": "Xo5xdC1h8ovGLuxlhx0cOGn7nqe"
+    },
+    "docs/02-pm-skills/ai-product-operations/ai-product-metrics.md": {
+      "node_token": "ZZ9Dwn3C3i0SLEkEaxuczTb6nce",
+      "obj_token": "EJAXd1pZcoOgO4xDP4EcXqw1nme"
+    },
+    "docs/02-pm-skills/ai-product-operations/guardrails-and-agent-security.md": {
+      "node_token": "I4ZgwF5TZi40DHk0gEXclwKhnag",
+      "obj_token": "MKfodkOvjoN060xWykec8hsmnms"
+    },
+    "docs/03-case-studies/aigc/claude-code-vs-codex.md": {
+      "node_token": "AvWAwz63CiuoVHkLXJgcVPchnDd",
+      "obj_token": "CQ9ndFzdooyjTdxYdqOcC63lnIf"
+    },
+    "docs/03-case-studies/chatbot-assistant/assistant-monetization-paths.md": {
+      "node_token": "MlmCwQb7Digw5PkfkH2cWOC1n1c",
+      "obj_token": "Ch7TdPtRLofkvixiaiacSSytncc"
+    },
+    "docs/03-case-studies/chatbot-assistant/assistant-positioning-comparison.md": {
+      "node_token": "XHZ7wPwVUiBnnNkwWBHc4ajonow",
+      "obj_token": "Q43GdSIY7oz4czxU7zMc5S1Unqe"
+    },
+    "docs/03-case-studies/chatbot-assistant/yuanbao.md": {
+      "node_token": "HV07wyRcIivweCkleo1cNheJnfb",
+      "obj_token": "F53CdO7XioM0PJxinSuc04nmnDh"
+    },
+    "docs/03-case-studies/search-and-rec/ai-search-vs-traditional-search.md": {
+      "node_token": "Ki8SwJjHziQQqfkHSXfcIxv1ntf",
+      "obj_token": "UoOhddeDFoEHC5xy9DFcJlDGndc"
+    },
+    "docs/03-case-studies/search-and-rec/answer-engine-citation-trust.md": {
+      "node_token": "LaEKwwJzmisSbMkinexcZWhInje",
+      "obj_token": "Xr2IdgnmeoQmOJxN8ARc8oRbnNf"
+    },
+    "docs/03-case-studies/search-and-rec/llm-in-recommendation.md": {
+      "node_token": "SlQ7wvEARiYf5okt4xVcIciJnHb",
+      "obj_token": "YaZldCPUFoyWkKxNXDPcwrAdnxe"
+    },
+    "docs/03-case-studies/search-and-rec/quark.md": {
+      "node_token": "G1a2wMSCWi6IIdkDFkJc9GFjnle",
+      "obj_token": "JaO2dLGFKoKxZuxuscEcmj7Tnxg"
+    },
+    "docs/04-interview/preparation/portfolio-and-demo.md": {
+      "node_token": "ApcLw4AgMiyIzykTHUwcarX7nUh",
+      "obj_token": "Oravd9MHeoOrbqx9N3ycf3X1nsh"
+    },
+    "docs/04-interview/preparation/project-deep-dive.md": {
+      "node_token": "OnEOwzIfki3eGDkCmAfc7s1Mnyc",
+      "obj_token": "Z2WAdDgaio48fJxu2DxcyLXYnd7"
+    },
+    "docs/03-case-studies/aigc/cursor-vs-copilot.md": {
+      "node_token": "CM3hw4dlAiWsomkRNfncNLpNned",
+      "obj_token": "EpcMdJjOoojcVkxZMFhcleDmn9f"
+    },
+    "docs/03-case-studies/aigc/kling-vs-jimeng.md": {
+      "node_token": "YdSywCruzibB2Xkn4FucNOxEn9b",
+      "obj_token": "Jxaydh86conMDHxqZKCcci3Zn5b"
+    },
+    "docs/03-case-studies/aigc/midjourney.md": {
+      "node_token": "OSnTw9WrdiIbOwk0pg8c3rmOnJd",
+      "obj_token": "S4UjdaPnhoxUEVxgteZcbuFSnPb"
+    },
+    "docs/03-case-studies/chatbot-assistant/claude-anthropic.md": {
+      "node_token": "ELPBwoLJbis1x5kMI8vcgMlunng",
+      "obj_token": "RDz7d0xiLoesK2xxkwucRuxjnsg"
+    },
+    "docs/03-case-studies/chatbot-assistant/doubao.md": {
+      "node_token": "VS5lw6nFsi1BpCkF8HTc5pQpnwg",
+      "obj_token": "HACxdgnzzonVhAxXbQPcZceLnUe"
+    },
+    "docs/03-case-studies/chatbot-assistant/kimi.md": {
+      "node_token": "JM2vwTpvUiptjkkrQjscbjJinSf",
+      "obj_token": "CkFXd1tIbo3zXExme8pccjAZnVe"
+    },
+    "docs/03-case-studies/chatbot-assistant/qwen.md": {
+      "node_token": "HF3QwSnkFic9VikCNj6cC7BOnc7",
+      "obj_token": "HSFedbhrsokrrKxda4ocK3e6ncf"
+    },
+    "docs/03-case-studies/chatbot-assistant/workbuddy-vs-marvis.md": {
+      "node_token": "WYfxwaa5giKB0UkgXkjcJX9NnFb",
+      "obj_token": "FP15djMK1ozOiSxweb5cGJu7nEd"
+    },
+    "docs/03-case-studies/search-and-rec/amazon-alexa-shopping.md": {
+      "node_token": "NTspwYJcji35I2kfxbucoWIYney",
+      "obj_token": "Ot9EdU36YoYrw3xjgyTc8Ichnld"
+    },
+    "docs/03-case-studies/search-and-rec/google-ai-mode.md": {
+      "node_token": "UITewxS0YiekUAkduxMc3KiEndb",
+      "obj_token": "INXrdU1G3ohK0AxOpmgcN12enuf"
+    },
+    "docs/03-case-studies/vertical/harvey-legal-ai.md": {
+      "node_token": "IkqSwJpIdizQJ6kaCyicqVV5nje",
+      "obj_token": "Oawyd1XIzoyiw2xbJficzKBkn1f"
+    },
+    "docs/03-case-studies/vertical/khanmigo.md": {
+      "node_token": "VoFhw2iE9iNmgDkSQA5cDCMSnZb",
+      "obj_token": "QR2ndTpoGojjp0xmydkc4xP4nyf"
+    },
+    "docs/03-case-studies/vertical/openevidence.md": {
+      "node_token": "ZGo8wxLPjisaTCkDh7xcGXnHnnd",
+      "obj_token": "Eu7zdh0wioEfgNxnkh4cpQ99nyg"
     }
   }
 }
