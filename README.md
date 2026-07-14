@@ -34,7 +34,7 @@
 
 > 让一个没有 AI 背景的产品经理(或想转行的同学),沿着目录从头读到尾,就能建立起 AI 产品经理的完整知识框架,并能应对主流公司的 AI 产品经理面试。
 
-- 🚀 **准备面试?** 直接进入 [04-interview 面试题库](docs/04-interview/README.md) —— 概念题、设计题、案例题、行为面 + 12 篇真实面经
+- 🚀 **准备面试?** 直接进入 [04-interview 面试题库](docs/04-interview/README.md) —— 概念题、设计题、案例题、行为面 + 18 篇面经与经验资料
 - 🌱 **零基础入门?** 从 [00-roadmap 学习路线](docs/00-roadmap/README.md) 开始,按目录编号顺序阅读
 - 🔍 **查概念?** 打开 [AI 术语速查表](docs/01-ai-basics/glossary.md)
 - 💰 **算成本 / 做选型?** 见 [成本测算入门](docs/02-pm-skills/cost-and-tech/llm-cost-101.md) 与 [2026 模型盘点](docs/01-ai-basics/llm/model-landscape.md)(数据核实至 2026-07)
