@@ -49,6 +49,7 @@
 
 ## 相关阅读
 
+- [思维链(CoT):让模型先想再答](../../01-ai-basics/prompt-engineering/chain-of-thought.md)(知识文章)
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)
