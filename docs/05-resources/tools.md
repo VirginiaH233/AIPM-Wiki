@@ -23,13 +23,17 @@
 - **Granola**：低打扰会议笔记工具，适合重视私密与轻量流程的团队。
 - **Fireflies**：自动记录与整理访谈效率高，适合高频访谈或销售协同团队。
 
+
+
 ## 评测 / 标注 / 原型（可选进阶）
 
 - **Braintrust**：适合搭建 LLM 应用评测闭环，把「感觉好用」变成可比较指标。
 - **Label Studio Community**：开源标注工具，适合中小团队建立训练与评测数据集。
 - **Figma AI**：适合快速做产品草图与交互迭代，降低从想法到可视化原型的成本。
 
-## 面试 Skills
+
+
+## 面试 Skills（作者原创）
 
 - [interview-self-introduce](https://github.com/archlizheng/interview-self-introduce)：根据 JD、简历和面试轮次生成 30/60/90/120 秒自我介绍，支持中文、英文、双语和反模板改写。
 - [interview-assessment](https://github.com/archlizheng/interview-assessment)：基于 JD、简历和面试记录做岗位匹配、面试准备和面试后复盘，支持候选人和招聘方视角。
@@ -41,8 +45,11 @@ npx skills add archlizheng/interview-self-introduce
 npx skills add archlizheng/interview-assessment
 ```
 
+
+
 ## 选择建议
 
 - 个人学习：先固定 2 个对话助手 + 1 个检索工具，避免来回切换导致方法不成型。
 - 团队协作：优先统一文档、会议、知识沉淀工具，再考虑引入复杂 Agent 平台。
 - 工具评估：先做 1 个真实场景 A/B 试用，再决定是否长期采购。
+

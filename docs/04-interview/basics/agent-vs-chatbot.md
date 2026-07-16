@@ -35,14 +35,17 @@
 ## 追问延伸
 
 - **追问 1**:"Agent 和普通工作流(Workflow)有什么区别?"
-  → 工作流步骤固定、按预设路径执行;Agent 能根据中间结果动态调整计划,灵活性更高但可控性更低。
+  → 工作流步骤固定、按预设路径执行;Agent 能根据中间结果动态调整计划,灵活性更高但可控性更低。详见 [什么是 Agentic Workflows?](agentic-workflows.md)。
 - **追问 2**:"设计 Agent 产品时最大的风险是什么?"
-  → 失控风险(执行了不该执行的操作)、成本不可控(多轮工具调用)、错误累积(一步错步步错)。
+  → 失控风险(执行了不该执行的操作)、成本不可控(多轮工具调用)、错误累积(一步错步步错)。路由选错与超大输入的接法见 [Agent 路由与超大文件](agent-routing-and-large-files.md)。
 - **追问 3**:"你怎么判断一个场景适不适合做 Agent?"
   → 看任务是否多步骤、是否需要调用外部工具、是否有明确的完成标准;简单问答不适合过度工程化。
 
 ## 相关阅读
 
+- [什么是 Agentic Workflows?](agentic-workflows.md)
+- [Agent 路由选错了怎么办?超大文件又该怎么接?](agent-routing-and-large-files.md)
+- [Skill 和 Rules 到底有什么区别?](skill-vs-rules.md)
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)
