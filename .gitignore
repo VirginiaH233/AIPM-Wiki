@@ -4,6 +4,9 @@
 # 网页文章暂存区(抓取的原始素材,待整理成正式 docs/ 内容),仅本地使用
 web-articles/
 
+# 宣传/介绍页与视频工程(小红书组图、HyperFrames、Remotion 等),非知识库正文,仅本地使用
+showcase/
+
 # 本地一次性维护脚本
 .scripts/
 
