@@ -16,6 +16,8 @@ RAG 一次性缓解这三个问题:答案基于检索到的真实材料生成,�
 
 ## 工作流程
 
+下面是最常见的入门形态(有时叫 Naive RAG):固定切块、固定 Top-K、再拼进 Prompt。它适合理解原理,但**不等于生产级 RAG 的全部**——混合检索、重排、以及由 Agent 动态决定「查什么」的演进,见[《RAG 没死:死的是 Naive 固定流水线》](rag-evolution-naive-to-agentic.md)。
+
 ```
 用户提问
    ↓
@@ -49,5 +51,11 @@ RAG 一次性缓解这三个问题:答案基于检索到的真实材料生成,�
 - B站:[RAG、Memory 与向量检索原理](https://www.bilibili.com/video/BV1RCGR6yEEw)（小白debug，~6.5 万播放）
 - B站:[向量数据库技术鉴赏（上）](https://www.bilibili.com/video/BV11a4y1c7SW)（Ele实验室，~28 万播放）
 - [Prompt、RAG、微调:三种让模型「更懂你」的手段](prompt-rag-finetuning.md)
+- [RAG 没死:死的是 Naive 固定流水线](rag-evolution-naive-to-agentic.md)
+- [长上下文 vs RAG:什么时候塞全库,什么时候检索](long-context-vs-rag.md)
+- [Agentic Retrieval:检索如何变成 Agent 的工具](agentic-retrieval.md)
+- [工业级 RAG 清单:混合检索、重排、评测与知识治理](production-rag-checklist.md)
+- [NL2SQL:自然语言查库,为什么学术高分上不了生产](nl2sql-for-ai-pm.md)
 - [AI 术语速查表](../glossary.md)
+- 面试题:[你怎么看「RAG 已死」这说法?](../../04-interview/basics/is-rag-dead.md)
 - 面试题:[04-interview/basics](../../04-interview/basics/README.md)

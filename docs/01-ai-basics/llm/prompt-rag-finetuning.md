@@ -30,16 +30,18 @@
    │
    ▼
 是"不知道"还是"知道但做不好"？
-   ├─ 不知道 → 知识会频繁更新？
-   │             ├─ 是 → 用 RAG
-   │             └─ 否 → 直接写进 Prompt 即可
+   ├─ 不知道 → 知识形态是什么？
+   │             ├─ 文档/制度/FAQ,且要稳定可控、可引用 → RAG / 混合检索
+   │             ├─ 要看库里的数、跨表指标 → 先想语义层 + NL2SQL,而不是硬塞文档 RAG
+   │             ├─ 多步骤、要动态决定查什么(代码/排障/开放域研究) → Agent + 检索工具
+   │             └─ 知识很少且几乎不变 → 直接写进 Prompt 即可
    └─ 知道但做不好 → 先把 Prompt 优化到极致
                        └─ 还不行 → 是风格/格式类问题？
                              ├─ 是 → 考虑微调
-                             └─ 否(其实是知识问题) → 回头检查 RAG
+                             └─ 否(其实是知识/检索问题) → 回头检查 RAG / 工具调用
 ```
 
-经验法则:**先 Prompt,不够上 RAG,还不够且预算允许再微调**——试错成本从低到高,永远从最轻的手段开始。
+经验法则:**先 Prompt,不够上 RAG(或 NL2SQL),任务变复杂再上 Agent,还不够且预算允许再微调**——试错成本从低到高,永远从最轻的手段开始。演进细节见[《RAG 没死》](rag-evolution-naive-to-agentic.md)与[《NL2SQL》](nl2sql-for-ai-pm.md)。
 
 ## 常见组合拳与真实产品例子
 
@@ -60,8 +62,12 @@
 - B站:[微调：从原理到实操](https://www.bilibili.com/video/BV13QFxzCEXb)（费曼学徒冬瓜，~6.4 万播放）
 - B站:[大模型微调看这个视频就够了](https://www.bilibili.com/video/BV1gmWDeLEMZ)（RethinkFun，~5.9 万播放）
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
+- [RAG 没死:死的是 Naive 固定流水线](rag-evolution-naive-to-agentic.md)
+- [Agentic Retrieval:检索如何变成 Agent 的工具](agentic-retrieval.md)
+- [NL2SQL:自然语言查库,为什么学术高分上不了生产](nl2sql-for-ai-pm.md)
 - [面试题:Prompt、RAG、SFT 分别是什么?有什么区别?](../../04-interview/basics/prompt-rag-sft-difference.md)
 - [面试题:RAG 和微调有什么区别?什么场景该用哪个?](../../04-interview/basics/rag-vs-finetuning.md)
+- [面试题:你怎么看「RAG 已死」这说法?](../../04-interview/basics/is-rag-dead.md)
 - [AI 术语速查表](../glossary.md)
 
 ## 参考资料

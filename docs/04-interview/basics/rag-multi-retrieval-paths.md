@@ -50,3 +50,5 @@
 - [如何评估 RAG 知识库的准确率?](rag-kb-accuracy-evaluation.md)
 - [上下文都到 1M 了,Re-Ranker 还有用吗?](reranker-with-long-context.md)
 - [精确率 vs 召回率](../../01-ai-basics/machine-learning/precision-vs-recall.md)
+- [你怎么看「RAG 已死」这说法?](is-rag-dead.md)
+- [NL2SQL:自然语言查库,为什么学术高分上不了生产](../../01-ai-basics/llm/nl2sql-for-ai-pm.md)

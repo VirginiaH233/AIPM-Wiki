@@ -61,6 +61,8 @@ Anthropic 在《Building Effective Agents》中给出关键区分:**工作流是
 - [什么是 Agent?它和 Chatbot 的区别是什么?](../../04-interview/basics/agent-vs-chatbot.md)
 - [什么是 Agentic Workflows?](../../04-interview/basics/agentic-workflows.md)
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
+- [Agentic Retrieval:检索如何变成 Agent 的工具](agentic-retrieval.md)
+- [Agent-search 与 Search as Code:搜索栈如何可编程](agentic-search-search-as-code.md)
 - [AI 术语速查表](../glossary.md)
 
 ## 参考资料

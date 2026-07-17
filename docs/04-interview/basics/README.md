@@ -30,4 +30,7 @@
 - [上下文都到 1M 了,Re-Ranker 还有用吗?](reranker-with-long-context.md)
 - [RAG 系统有哪几种检索路径?分别适合什么场景?](rag-multi-retrieval-paths.md)
 - [Agent 路由选错了怎么办?超大文件又该怎么接?](agent-routing-and-large-files.md)
+- [你怎么看「RAG 已死」这说法?](is-rag-dead.md)
+- [企业知识库问答和 Coding Agent,检索架构该怎么选?](when-agent-vs-rag.md)
+- [为什么 Text-to-SQL 在 Spider 上很高分,上线企业库却翻车?](nl2sql-pitfalls.md)
 - [AI 产品经理 30 多次面试经验总结](ai-pm-interview-30-summary-202604.md)
