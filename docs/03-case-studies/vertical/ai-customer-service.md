@@ -63,6 +63,7 @@ Fin 把计费和"结果"强绑定,官方定义了四类可计费结果,而不是
 
 ## 相关阅读
 
+- [面试官让你「设计一个 AI 客服」，3 分钟内必须说清哪些判断点？](../../04-interview/product-design/design-ai-cs-four-judgements.md)
 - [AI 客服产品解决率停在 70% 上不去,怎么办?](../../04-interview/product-design/ai-customer-service-resolution-rate.md)
 - [为主流电商平台设计智能客服问答机器人(含兜底机制)](../../04-interview/product-design/design-ecommerce-customer-service-bot.md)
 - [DeepSeek 开始峰谷定价,你怎么看 AI 产品的商业模式?](../../04-interview/case-analysis/ai-business-model-and-pricing.md)

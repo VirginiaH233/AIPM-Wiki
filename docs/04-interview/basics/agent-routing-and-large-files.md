@@ -46,7 +46,7 @@ Coding Agent 场景同理:大仓库靠检索/符号工具/测试命令,而不是
 ## 追问延伸
 
 - **追问 1**:"多 Agent 一定比单 Agent 强吗?"
-  → 不一定。多 Agent 增加路由与协调成本;任务边界清晰、需要隔离上下文时才划算。
+  → 不一定。多 Agent 增加路由与协调成本;任务边界清晰、需要隔离上下文时才划算。展开见 [什么场景不该用 Agent](when-not-to-use-agent.md) 与正课 [何时不该上多 Agent](../../02-pm-skills/ai-product-operations/when-not-to-use-multi-agent.md)。
 - **追问 2**:"超大文件场景的北极星指标是什么?"
   → 任务完成率、关键事实召回/引用正确率、端到端时延与成本、用户是否需要反复重传文件。
 - **追问 3**:"权限上要注意什么?"
@@ -60,3 +60,5 @@ Coding Agent 场景同理:大仓库靠检索/符号工具/测试命令,而不是
 - [RAG 系统有哪几种检索路径?](rag-multi-retrieval-paths.md)
 - [兜底、反馈与预期管理](../../02-pm-skills/prd-and-design/fallback-and-feedback-design.md)
 - [Agent 产品设计](../../02-pm-skills/ai-product-operations/agent-product-design.md)
+- [何时不该上多 Agent：延迟、成本、工具膨胀与劝退](../../02-pm-skills/ai-product-operations/when-not-to-use-multi-agent.md)
+- [所有人都在卷 Agent，什么场景不该用？怎么说服老板？](when-not-to-use-agent.md)

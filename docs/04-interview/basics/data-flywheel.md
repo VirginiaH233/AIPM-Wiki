@@ -48,6 +48,7 @@
 
 ## 相关阅读
 
+- [冷启动与数据飞轮:没有数据时产品怎么起步](../../02-pm-skills/data-annotation/cold-start-and-data-flywheel.md)（含飞轮反模式）
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)

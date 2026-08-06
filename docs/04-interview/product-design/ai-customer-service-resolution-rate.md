@@ -62,4 +62,7 @@
 
 ## 相关阅读
 
+- [面试官让你「设计一个 AI 客服」，3 分钟内必须说清哪些判断点？](design-ai-cs-four-judgements.md)（短框架：效果口径与红线指标）
+- [为主流电商平台设计智能客服问答机器人(含兜底机制)](design-ecommerce-customer-service-bot.md)
+- [智能客服:最成熟的 LLM 落地场景拆解](../../03-case-studies/vertical/ai-customer-service.md)
 - [RAG 和微调有什么区别?什么场景该用哪个?](../basics/rag-vs-finetuning.md)

@@ -41,6 +41,9 @@
 
 ## 相关阅读
 
+- [怎么设计 Agent 的信任校准，避免过度信任或不信任？](../product-design/agent-trust-calibration-design.md)（Agent UX：确认 / 进度 / 接管）
+- [Agentic UX 与信任校准：用户何时该信、何时该介入](../../02-pm-skills/prd-and-design/agentic-ux-and-trust-calibration.md)
+- [兜底、反馈与预期管理:AI 产品的交互设计三件套](../../02-pm-skills/prd-and-design/fallback-and-feedback-design.md)
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)

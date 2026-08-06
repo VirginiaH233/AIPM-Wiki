@@ -86,6 +86,7 @@ Prompt 改一个字都可能改变输出效果,这决定了它不能是"改完�
 
 - [Prompt 基本功:角色、任务、约束、示例、输出格式](prompt-basics.md)
 - [结构化输出:让模型稳定吐出 JSON](structured-output.md)
+- [Context Engineering：从写 Prompt 到拼上下文系统](context-engineering.md)
 - [从零建设评测集:用例从哪来、标准答案怎么定](../../02-pm-skills/model-evaluation/build-your-eval-set.md)
 - [如何构建大模型效果评测体系?](../../04-interview/basics/model-evaluation-system.md)
 - [为什么大模型的输出每次都不一样?](../../04-interview/basics/llm-output-randomness.md)

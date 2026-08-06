@@ -152,6 +152,7 @@ OpenAI 建议用 Markdown 标题、列表或 XML 标签划出 Prompt 的功能�
 
 - [结构化输出:让模型稳定吐出 JSON](structured-output.md)
 - [系统提示词设计与 Prompt 工程化:把玄学变工程](system-prompt-and-prompt-ops.md)
+- [Context Engineering：从写 Prompt 到拼上下文系统](context-engineering.md)
 - [什么是 CoT(思维链)?有什么优势?](../../04-interview/basics/chain-of-thought.md)
 - [什么是 RAG:检索增强生成入门](../llm/what-is-rag.md)
 - [Prompt、RAG、SFT 分别是什么?有什么区别?](../../04-interview/basics/prompt-rag-sft-difference.md)

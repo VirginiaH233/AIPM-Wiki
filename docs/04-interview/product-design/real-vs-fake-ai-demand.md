@@ -71,3 +71,5 @@
 ## 相关阅读
 
 - [RAG 和微调有什么区别?什么场景该用哪个?](../basics/rag-vs-finetuning.md)
+- [如何判断一个业务问题是否适合用 AI 解决?](../basics/when-to-use-ai.md)
+- [AI Native vs +AI：怎么判断该怎么做](../../02-pm-skills/prd-and-design/ai-native-vs-plus-ai.md)

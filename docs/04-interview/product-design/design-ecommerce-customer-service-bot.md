@@ -62,4 +62,7 @@
 
 ## 相关阅读
 
+- [面试官让你「设计一个 AI 客服」，3 分钟内必须说清哪些判断点？](design-ai-cs-four-judgements.md)（短框架题，可先答判断点再展开本题）
+- [AI 客服产品解决率停在 70% 上不去,怎么办?](ai-customer-service-resolution-rate.md)
+- [智能客服:最成熟的 LLM 落地场景拆解](../../03-case-studies/vertical/ai-customer-service.md)
 - [RAG 和微调有什么区别?什么场景该用哪个?](../basics/rag-vs-finetuning.md)

@@ -24,6 +24,10 @@
 - **Transformed（Marty Cagan 等, 2024）**：关注组织如何从项目制转向产品运营模型，适合 AI 转型期团队。
 - **Continuous Discovery Habits（Teresa Torres）**：强调持续用户发现，避免闭门造 AI、上线后才发现伪需求。
 
+## 中文专题读物
+
+- **《关于 AI 产品经理的 100 个问题》（磊叔）**：[飞书文档](https://my.feishu.cn/wiki/Rl6zw6lp2ipOnnkBVxwc5urRnLc)。AI PM 踩坑问答地图，可作选题索引。
+
 ## 谨慎收录（可选进阶）
 
 - **The AI Product Manager's Handbook（Irene Bratsis）**：覆盖面广，但偏传统 ML 时代框架，可作补充阅读。

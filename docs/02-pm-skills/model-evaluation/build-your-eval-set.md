@@ -4,7 +4,13 @@
 
 AI 产品经理最容易踩的一个坑,是把"效果好不好"这件事完全交给算法同学的直觉:跑几个例子看着顺眼,就上线了。这套打法在传统产品里问题不大,但在 AI 产品里会直接反噬——大模型的输出是概率性的,同一个 Prompt 换一批输入,效果可能天差地别;没有一套稳定、可复现的测试集,你永远不知道"这次改动到底是变好了还是变差了",也无法在两个模型、两版 Prompt 之间做客观对比。
 
-Anthropic 官方把这件事说得很直接:构建评测(evals)和定义成功标准,是 Prompt 工程与模型迭代的核心闭环——先有标准,再有测试集,再有迭代;反过来,没有测试集,连"标准"是否达成都无从验证。这也是为什么"评测体系"几乎是所有大厂 AI PM 面经里的高频题(参见 [如何构建大模型效果评测体系?](../../04-interview/basics/model-evaluation-system.md))。本篇聚焦"评测集"这一个具体环节:用例从哪里来、覆盖度怎么设计、标准答案怎么定、规模要多大、以及如何管理它的生命周期。
+Anthropic 官方把这件事说得很直接:构建评测(evals)和定义成功标准,是 Prompt 工程与模型迭代的核心闭环——先有标准,再有测试集,再有迭代;反过来,没有测试集,连"标准"是否达成都无从验证。这也是为什么"评测体系"几乎是所有大厂 AI PM 面经里的高频题(参见 [如何构建大模型效果评测体系?](../../04-interview/basics/model-evaluation-system.md))。本篇聚焦"评测集"这一个具体环节:用例从哪里来、覆盖度怎么设计、标准答案怎么定、规模要多大、以及如何管理它的生命周期;后半补上"做了 Evals 仍翻车"的失败模式、golden set 够不够的判断标准,以及离线涨分与业务不动时怎么从评测集侧排查。
+
+> **选题启发**：磊叔《关于 AI 产品经理的 100 个问题》Q24、Q25、Q27。正文为原创方法论，不复述 PDF 中的具体数字与轶事。
+>
+> **事实**：Anthropic / OpenAI 均强调“真实任务分布 → 可重复评分 → 持续扩集”，以及评测与生产变更绑定（continuous evaluation）。见文末参考资料。
+>
+> **建议**：评测集是刹车片，不是上线前跑一次的脚本。先修失败模式，再谈扩规模。
 
 ## 用例的四个来源
 
@@ -78,15 +84,30 @@ OpenAI 的分类方式类似,把边界情况归纳为三类挑战:
 
 Anthropic 对 LLM 评分 rubric 的建议是:**尽量具体、可量化**,例如"回答的第一句必须提到公司名称,否则自动判为不合格",而不是"回答要专业得体"这种无法量化的描述;同时建议**让模型先给出推理过程再输出结论,再丢弃推理只保留结论**,这样能显著提升复杂判断任务的评分准确性。
 
-## 规模多大才够
+## 规模多大才够：golden set 怎么建、"够不够"看什么
 
 一个常见误区是认为"评测集越大越好"或者反过来"几个例子就够了"。官方给出的经验法则更实用:
 
 - Anthropic 建议:**优先追求数量而非单条质量**——"更多的题目、用自动化评分(即便信号略弱),好过少量题目但纯靠人工精评"。
 - 对于 Agent/复杂任务场景,Anthropic 工程博客给出了更具体的起步建议:**20-50 个来自真实失败案例的简单任务,就是一个很好的起点**,不需要等到"完美的评测套件"才开始。
-- 覆盖度比绝对数字更重要:如果任务场景单一(比如固定格式的分类任务),小几十条就可能收敛;如果场景复杂多变(比如开放域客服对话),几百到上千条才能反映真实分布。
+- 覆盖度比绝对数字更重要:如果任务场景单一(比如固定格式的分类任务),小几十条就可能收敛;如果场景复杂多变(比如开放域客服对话),需要更大的规模才能反映真实分布——**没有跨场景通用的"标准条数"**。
 
-一个可参考的启动节奏:先用 20-50 条真实 badcase 搭起最小可用评测集 → 跑通评分流程 → 再逐步扩充典型/边界/对抗样本到覆盖目标场景的规模。
+把其中用于发版闸门、"分数不退步才放行"的那一层叫 **golden set / 金标集**。它是刹车片,不是越大越好;质量与可评分性优先于堆量。建设时几条原则绕不开:
+
+| 原则 | 说明 |
+|------|------|
+| 真实输入优先 | 主样本来自脱敏后的用户日志;合成数据适合补边界与对抗,不能单独充当金标分布 |
+| 三层覆盖 | 典型 / 边界 / 对抗(见上文配比);缺哪层,哪层就会在线上翻车 |
+| 可执行标注 | 客观题有可校验答案;主观题有 example-led rubric,否则标注员一致性崩 |
+| 持续更新 | 业务、用户、模型都在变;长期不更新的集子分数再高也是自欺 |
+
+**"够不够"的判据不是条数,而是覆盖**:你最担心模型出错的典型场景,金标集里是否都有可评分样本?覆盖不全就补,覆盖已满且区分度下降就把旧题降级为回归集(见下节"评测饱和")。
+
+一个可参考的启动节奏:先用真实 badcase 搭起最小可用种子集 → 跑通评分与发布闸门 → 再逐步扩充典型/边界/对抗样本。
+
+### 没有 golden set 就上线了：怎么补(交叉,不重复)
+
+若产品已经在跑、迭代仍靠"看着顺眼",**事后补救顺序**（种子集 → 写入发布闸门 → 用线上信号扩集）见 [Agent 评测与可观测性 · 无 golden set 补救](../ai-product-operations/agent-evaluation-and-observability.md#没有-golden-set-就上线了事后怎么补救)。本文负责"怎么建得好";那篇负责"已经上线了怎么先止血再补齐"——两边方法一致,不必各写一套清单。
 
 ## 评测集也要版本管理
 
@@ -96,6 +117,38 @@ Anthropic 对 LLM 评分 rubric 的建议是:**尽量具体、可量化**,例如
 - **明确责任人**:建立专门的所有权(ownership),否则评测集会随着产品迭代逐渐过时、无人维护。
 - **开放贡献通道**:让产品经理、客服、运营都能提交新发现的 badcase 进入评测集,而不是只靠算法同学维护。
 - **警惕"评测饱和"**:当某个能力项的评测分数长期稳定在 100% 时,说明这批用例已经不再有区分度,应该把它降级为"回归测试集"(防止旧问题复发),同时开辟新的、更难的用例来衡量当前的能力边界。
+
+## 做了 Evals 还上线翻车：五种失败模式
+
+"团队明明有评测,为什么还翻车?"——多数时候不是没跑 Evals,而是 Evals **做错了**。下面五种模式反复出现;修评测往往比再调一轮 Prompt 更划算。
+
+| 失败模式 | 表现 | 修法方向 |
+|----------|------|----------|
+| 只看聚合指标 | 总分/准确率很好看,不问哪一类错、为何错 | 分场景/分维度报表 + 必读失败 case 清单;高损场景单独切片 |
+| 评测集僵死 | 业务与用户已变,集子长期不动,高分是过时世界的分数 | 固定回流节奏(badcase / 负反馈会话);版本化集子;饱和题降级为回归 |
+| 评测与业务脱节 | 技术分涨、完成率/转化/客诉不动 | 把用户价值维度写进 rubric;用真实高价值场景做样本(见下节与 [Badcase 排查](badcase-analysis.md#模型指标涨了业务指标没涨怎么排查)) |
+| 没有 Badcase 库 | 失败 case 不收集、不归因、不复盘,等于扔掉金矿 | 建回流管道与归因例会,见 [Badcase 分析方法论](badcase-analysis.md) |
+| 评测甩给 QA 一人 | Evals 变成走场 checklist,PM/业务不参与标准定义 | PM 主导成功标准与验收线;算法负责可自动化;业务共签一票否决项 |
+
+Anthropic 在 Agent evals 实践里也提醒:低分不一定是模型不行——任务规格模糊、评分器过严/有 bug、不可复现的随机任务,都会制造假失败。反过来亦然:**高分也可能是假成功**(聚合掩盖长尾、评分器太松、集子已被过拟合)。做了 Evals 还翻车,先审计上表五种模式,再谈放量。
+
+## 离线涨了、业务不动：先查评测集还是先怪模型?
+
+技术侧说 Evals 涨了,业务侧说指标没动——两种可能都有,要分开查,不要一上来否定模型或否定业务。
+
+**更像评测设计问题**(优先修集子/指标):
+
+- 涨分发生在用户很少遇到的长尾或"好看但不值钱"的维度(流畅度、格式、BLEU 类)
+- 集子分布与线上流量脱节,或简单 case 占比过高,模型在简单题上刷分
+- 历史几次迭代里,离线分与业务指标几乎不相关(散点无趋势)
+
+**更像模型/链路没真正进步**:
+
+- 金标集上个别 case 被碰巧覆盖,换真实分布抽样(live / held-out)几乎无提升
+- 模型层变好了,但检索、权限、UI 入口、兜底仍卡住——用户感知不到
+- 单次跑分全绿,多 trial / 线上聚合仍不稳(见 [AI 产品的 A/B 测试](ab-testing-for-ai-products.md))
+
+排查顺序建议:先画"历次离线分 vs 业务指标"相关性 → 再查样本分布与维度是否对齐用户价值 → 仍怀疑模型时,用 held-out / 影子流量验证。产品侧完整归因树见 [Badcase · 模型指标涨了业务没涨](badcase-analysis.md#模型指标涨了业务指标没涨怎么排查);Agent 生产侧"线下绿线上灰"见 [Agent 评测与可观测性](../ai-product-operations/agent-evaluation-and-observability.md)。**Evals 本应是技术语言与业务语言的翻译层**——对不齐时,先修翻译,再争论模型有没有进步。
 
 ## 上线验收流程怎么设计
 
@@ -114,15 +167,18 @@ Anthropic 对 LLM 评分 rubric 的建议是:**尽量具体、可量化**,例如
 
 ## 相关阅读
 
-- [主观任务怎么评:人工评估与 LLM-as-a-Judge](llm-as-a-judge.md)
+- [主观任务怎么评:人工评估与 LLM-as-a-Judge](llm-as-a-judge.md)(含 Judge 不可信类型、准确率 90→99 预期管理)
 - [Badcase 分析方法论:收集、归因、分发、验证](badcase-analysis.md)
+- [AI 产品的 A/B 测试：概率性输出下如何做实验](ab-testing-for-ai-products.md)
+- [Agent 评测与可观测性：从最终答案追到完整轨迹](../ai-product-operations/agent-evaluation-and-observability.md)(无 golden set 补救、线下绿线上灰)
+- [模型准确率从 90% 提升到 95%,对业务价值如何量化?](../../04-interview/case-analysis/quantify-model-accuracy-value.md)
 - [如何构建大模型效果评测体系?](../../04-interview/basics/model-evaluation-system.md)
 - [如何评估 RAG 知识库的准确率?](../../04-interview/basics/rag-kb-accuracy-evaluation.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 
 ## 参考资料
 
-- [Define success criteria and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests) — Anthropic 官方文档,2026-07 访问
-- [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices) — OpenAI 官方文档,2026-07 访问
-- [Evaluation best practices | Stax](https://developers.google.com/stax/best-practices) — Google for Developers 官方文档,2026-07 访问
-- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) — Anthropic 工程博客,2026-07 访问
+- [Define success criteria and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests) — Anthropic 官方文档,2026-08 访问
+- [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices) — OpenAI 官方文档,2026-08 访问
+- [Evaluation best practices | Stax](https://developers.google.com/stax/best-practices) — Google for Developers 官方文档,2026-08 访问
+- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) — Anthropic 工程博客,2026-08 访问

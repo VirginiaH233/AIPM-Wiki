@@ -7,7 +7,7 @@
 - [AI 术语速查表](glossary.md) —— 高频术语一页速查
 - [machine-learning/](machine-learning/README.md) —— 机器学习与深度学习核心概念
 - [llm/](llm/README.md) —— 大语言模型:原理、微调、RAG、Agent
-- [prompt-engineering/](prompt-engineering/README.md) —— Prompt 工程
+- [prompt-engineering/](prompt-engineering/README.md) —— Prompt 工程与 Context Engineering
 
 ## 阅读建议
 

@@ -4,7 +4,7 @@ AI PM 和传统 PM 的差异集中在这里:你需要为「不确定性」做产
 
 ## 目录
 
-- [prd-and-design/](prd-and-design/README.md) —— AI 产品的 PRD 与交互设计
+- [prd-and-design/](prd-and-design/README.md) —— AI 产品的 PRD 与交互设计（含 Agentic UX 与信任校准）
 - [model-evaluation/](model-evaluation/README.md) —— 模型与产品效果评估
 - [data-annotation/](data-annotation/README.md) —— 数据标注与冷启动
 - [cost-and-tech/](cost-and-tech/README.md) —— 成本测算与技术协作

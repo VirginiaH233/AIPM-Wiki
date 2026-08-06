@@ -1,7 +1,9 @@
 # 传统 PM 转型 AI PM 指南
 
-> 这篇文章写给谁:已经有 1-3 年及以上产品经理经验、想转向 AI 方向的同学。
-> 和 [入门路径](getting-started.md) 的关系:入门路径是给"零基础任何人"的通用学习路线,按知识模块从头讲到尾;这篇文章假设你已经具备产品经理的基本功,只聚焦"转型"这一件事——哪些能力能直接带过去、哪些必须重新补、常见的心态误区是什么、以及一份更聚焦的 3 个月行动计划。两篇建议搭配读:通用知识按入门路径补,转型策略按这篇来。
+> 这篇文章写给谁:已经有 1-3 年及以上产品经理经验、想转向 AI 方向的同学;也覆盖**算法/工程背景转 AI PM**,以及**公司暂时没有 AI 业务**时如何自己攒可验证经验。
+> 和 [入门路径](getting-started.md) 的关系:入门路径是给"零基础任何人"的通用学习路线,按知识模块从头讲到尾;这篇文章假设你已有产品或技术基本功,只聚焦"转型"——哪些能力能直接带过去、哪些必须重新补、常见心态误区、以及可落地的行动计划。两篇建议搭配读:通用知识按入门路径补,转型策略按这篇来。
+>
+> 文末两节补充两条高频转型路径:算法工程师转 AI PM 的互补短板,以及无业务场景时如何用作品集/Demo 攒经验。选题启发自磊叔《关于 AI 产品经理的 100 个问题》Q8 / Q12;正文为原创框架,**不摘录该 PDF 答案**。
 
 ## 一、你已经拥有的可迁移能力
 
@@ -88,18 +90,85 @@
 
 3 个月结束时,不要求你达到"优秀线",但应该能在 [AI 产品经理能力模型](ai-pm-capability-model.md) 的五个维度上都摸到"及格线",并且有真实作品支撑——这比任何自我介绍都更有说服力。
 
+## 五、算法工程师转 AI PM:镜像短板怎么补
+
+> **补充于 2026-08**：选题启发自 Q8。上文一至四节默认读者是传统 PM;本节给**算法 / 工程背景**读者一张对照表。
+
+算法背景转 AI PM、传统 PM 转 AI PM 都很常见。两类人的优势几乎镜像,谁也不是谁的「上位替代」——能站住的人,通常是先认清自己缺哪一块,再按块补齐。
+
+### 两边各自缺什么
+
+| 维度 | 算法 / 工程转 AI PM | 传统 PM 转 AI PM |
+|------|---------------------|------------------|
+| 硬优势 | 能听懂模型边界与不可行原因;选型会上不易被术语糊弄;评测指标读得懂 | 用户洞察、优先级、跨职能推进、文档与预期管理更熟 |
+| 常见短板 | 容易从「模型能做到」反推场景;低估「用户要不要用 / 愿不愿意改习惯」;对成本、合规、上线节奏的产品权衡生疏 | 技术深度不够时,选型与评估话语权变弱;容易把 AI 当成「加个入口」的功能增量 |
+| 高风险姿势 | 先有方案再找痛点;把离线指标涨幅当成产品成功 | 只会复述术语、拿不出可验证证据;被一句「做不到」打发后不再追问 |
+
+能力模型里,[产品基本功](ai-pm-capability-model.md) 与[数据与评估](../02-pm-skills/model-evaluation/README.md) 对两类人权重不同:算法转过来的人,及格线往往卡在「问题定义与取舍」;传统转过来的人,及格线往往卡在「能和算法平等讨论边界」。选型会上谁拍哪一层,见 [AI 产品团队怎么建](ai-pm-team-org-and-roles.md) 与 [模型选型该听算法还是 PM](../04-interview/behavioral/pm-vs-algo-model-selection.md)。
+
+### 算法背景的 30 天补短板清单
+
+不必先「忘掉技术」,而是把技术判断嵌进产品决策链:
+
+1. **强制从用户任务起笔**:每个想法先写清「谁、在什么情境、完成什么任务、失败时怎么办」,再写模型方案;对照 [何时该用 AI](../04-interview/basics/when-to-use-ai.md)。
+2. **做一次「非技术」逆向 PRD**:挑一个你熟悉的公开 AI 产品,只写目标用户、成功标准、错误率容忍、兜底与人工介入——刻意不写超参与训练细节。
+3. **补成本与合规为设计变量**:用 [成本测算入门](../02-pm-skills/cost-and-tech/llm-cost-101.md) 给一个小场景算单位任务成本;扫一眼岗位相关的内容安全 / 数据边界(细节见合规正课,不在此展开)。
+4. **练习「翻译」而不是「替代」**:在模拟协作里练习把技术约束翻成业务选项(延迟 / 成本 / 效果三选二),而不是替业务方直接定方案。
+
+一句话定位:**你的技术深度是资产,但 AI PM 的交付物是可验证的产品判断与协作结果,不是更强的模型。** 公开招聘里也能看到这一区分——例如 Google DeepMind 相关 PM 岗位强调把 AI 能力写成产品规格与优先级,而不是亲自训练模型(见文末参考资料,2026-08 访问)。
+
+## 六、公司没有 AI 业务,怎么攒第一个可验证经验
+
+> **补充于 2026-08**：选题启发自 Q12。和第四节「3 个月行动计划」互补——那里给有学习时间的通用节奏;这里回答「本职工作碰不到 AI 时,经验从哪来」。
+
+很多 JD 会写「有 AI 产品经验」或「完整交付过 AI 功能」。公司短期上不了正式 AI 项目时,仍可以用**可核验证据**过初筛——关键不是证书列表,而是「问题—决策—证据—边界」能讲清楚。展示结构直接用 [AI PM 作品集与 Demo 准备](../04-interview/preparation/portfolio-and-demo.md),动手路径用 [Vibe Coding 实战](../02-pm-skills/vibe-coding/from-idea-to-demo.md);本节只讲路径选择与含金量排序。
+
+### 三条路径怎么选
+
+| 路径 | 做什么 | 说服力 | 主要代价 |
+|------|--------|--------|----------|
+| A. 内部试点 | 给现有产品接最小 AI 能力(检索增强问答、工单摘要、内部知识库等),哪怕只是灰度 | 高:有真实干系人与真实约束 | 窗口不可控;数据权限要先过审 |
+| B. 独立 Demo / 小产品 | 用 API 或低代码搭可演示系统,配评测集、成本表、失败兜底 | 高:能当场打开并讲清验证结论 | 需持续投入;勿把原型说成已上线生产 |
+| C. 逆向分析 | 拆一个公开 AI 产品,写「若我负责会怎么改」的产品文档 | 中:能证明判断力 | **不能单独替代**可演示交付 |
+
+认真转型时,建议 **B 必做,A 有机会就接,C 作为补充材料**。B 的最低合格包不是「能跑通一次漂亮回答」,而是作品集文里要求的证据链:评测集(哪怕 10–20 条)、单位任务成本、找不到答案时的出口、演示失败时的备用截图/轨迹。
+
+### 和第四节怎么拼在一起
+
+若公司完全没有 AI 业务,仍可沿用第四节的 12 周骨架,但把「产出」一律改成作品集素材:
+
+- 第 1 个月:可演示 Demo + 问题日志 → 对应作品集「方案与关键决策」
+- 第 2 个月:逆向 PRD + 小型评测集 + badcase 归因 → 对应「评测与结果」
+- 第 3 个月:成本测算 + 合规红线笔记 + 按 [作品集自查清单](../04-interview/preparation/portfolio-and-demo.md) 过一遍 → 对应「成本与运行 / 边界」
+
+讲解顺序见同文第九节:问题 → 方案 → 证据 → 取舍 → 边界;项目深挖话术见 [AI PM 项目深挖](../04-interview/preparation/project-deep-dive.md)。简历与口述里,优先写**可核对的结果**(评测前后对比、单位成本、人工介入率假设),少写「学习了某某课程」。
+
+### 合规与诚实边界(无业务场景尤其重要)
+
+- **数据**:内部试点与个人 Demo 一律脱敏或虚构数据;真实客户数据进第三方 API 前先确认公司政策(见 [数据合规红线](../02-pm-skills/data-annotation/data-compliance.md))。
+- **表述**:可以说「个人验证原型 / 内部试点」,不要暗示已有大规模线上 DAU 或「已负责某大厂 AI 产品线」。
+- **岗位选择**:攒经验阶段优先投应用型 / 行业嵌入型 AI PM,再谈大模型厂商核心岗;类型差异见 [岗位类型盘点](ai-pm-job-types.md),投递前可用 [识破伪 AI PM 岗](spot-fake-ai-pm-jobs.md) 做反问筛查。
+
 ## 相关阅读
 
 - [AI 产品经理入门路径](getting-started.md)
 - [AI 产品经理能力模型](ai-pm-capability-model.md)
 - [AI PM 岗位类型盘点](ai-pm-job-types.md)
+- [如何识别「挂羊头卖狗肉」的 AI PM 岗位](spot-fake-ai-pm-jobs.md)
+- [AI 产品团队怎么建：角色、分工与选型话语权](ai-pm-team-org-and-roles.md)
 - [什么是 RAG:检索增强生成入门](../01-ai-basics/llm/what-is-rag.md)
 - [模型与产品效果评估](../02-pm-skills/model-evaluation/README.md)
+- [从一句话需求到能跑的原型:AI PM 的 Vibe Coding 实战方法论](../02-pm-skills/vibe-coding/from-idea-to-demo.md)
+- [AI PM 作品集与 Demo 准备](../04-interview/preparation/portfolio-and-demo.md)
+- [AI PM 项目深挖的准备方法](../04-interview/preparation/project-deep-dive.md)
 - [AI 产品经理和传统产品经理最大的区别是什么?](../04-interview/behavioral/ai-pm-vs-traditional-pm.md)
 - [你没有 AI 背景,凭什么胜任 AI 产品经理?](../04-interview/behavioral/no-ai-background-why-qualified.md)
+- [模型选型该听算法还是 PM？你怎么协作？](../04-interview/behavioral/pm-vs-algo-model-selection.md)
 
 ## 参考资料
 
-- [Jobs \ Anthropic](https://www.anthropic.com/careers/jobs) — Anthropic 官方招聘页,可用于了解不同方向 AI PM 岗位的真实职责范围,2026-07 访问
-- [Careers at Google DeepMind](https://deepmind.google/careers/) — Google DeepMind 官方招聘页,说明 PM 岗位如何将 AI 能力转化为产品规格,2026-07 访问
-- [Perplexity Associate Product Manager Program](https://www.perplexity.ai/hub/associate-product-manager) — Perplexity 官方 APM 项目介绍页,可作为"转型进入 AI 应用公司"的路径参考,2026-07 访问
+- [Jobs · Anthropic](https://www.anthropic.com/careers/jobs) — Anthropic 官方招聘页,可用于了解不同方向 AI PM 岗位的真实职责范围,2026-08 访问
+- [Careers at Google DeepMind](https://deepmind.google/careers/) — Google DeepMind 官方招聘页,说明 PM 岗位如何将 AI 能力转化为产品规格与优先级,2026-08 访问
+- [Perplexity Associate Product Manager Program](https://www.perplexity.ai/hub/associate-product-manager) — Perplexity 官方 APM 项目介绍页,可作为"转型进入 AI 应用公司"的路径参考,2026-08 访问
+- [Define success criteria and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests) — Anthropic 官方文档:围绕真实任务定义成功标准并建设评测,可作为「作品集要有评测证据」的一手依据,2026-08 访问
+- 选题启发:磊叔《关于 AI 产品经理的 100 个问题》Q8(算法→PM 互补短板)、Q12(无 AI 业务攒经验);第五节、第六节为原创框架,未摘录该 PDF 答案

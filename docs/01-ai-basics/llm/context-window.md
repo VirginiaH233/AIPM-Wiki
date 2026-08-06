@@ -101,6 +101,7 @@
 
 - [大模型是怎么"想"的:预测下一个 token 的直观解释](how-llm-works.md)
 - [什么是 RAG:检索增强生成入门](what-is-rag.md)
+- [Context Engineering：从写 Prompt 到拼上下文系统](../prompt-engineering/context-engineering.md)
 - 面试题:[大模型的上下文窗口和记忆机制是什么?](../../04-interview/basics/context-window-and-memory.md)
 - 面试题:[什么是大模型的幻觉?产品上怎么缓解?](../../04-interview/basics/hallucination-mitigation.md)
 - [AI 术语速查表](../glossary.md)

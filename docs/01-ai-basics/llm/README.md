@@ -18,7 +18,7 @@ AI PM 的核心必修课:大模型的原理、能力边界、应用架构。
 - [长上下文 vs RAG:什么时候塞全库,什么时候检索](long-context-vs-rag.md)
 - [Agentic Retrieval:检索如何变成 Agent 的工具](agentic-retrieval.md)
 - [Agent-search 与 Search as Code:搜索栈如何可编程](agentic-search-search-as-code.md)
-- [工业级 RAG 清单:混合检索、重排、评测与知识治理](production-rag-checklist.md)
+- [工业级 RAG 清单:混合检索、重排、评测与知识治理](production-rag-checklist.md) —— 另含矛盾文档、隐性知识、「相关但没用」归因
 - [NL2SQL:自然语言查库,为什么学术高分上不了生产](nl2sql-for-ai-pm.md)
 - [Prompt / RAG / 微调:三种让模型更懂你的方式怎么选](prompt-rag-finetuning.md)
 - [Agent 入门:规划、记忆、工具调用](agent-basics.md)

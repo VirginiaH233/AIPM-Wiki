@@ -6,6 +6,7 @@
 
 - [AI PM 项目深挖的准备方法](project-deep-dive.md) —— 背景、目标、个人贡献、关键取舍、数据结果、失败复盘、技术边界和常见追问
 - [AI PM 作品集与 Demo 准备](portfolio-and-demo.md) —— RAG、Agent、Vibe Coding 项目的展示结构、评测集、成本测算、演示风险和讲解顺序
+- [JD 写「熟悉大模型」，面试官的三档标准是什么？怎么自测？](llm-familiarity-three-levels.md) —— L1/L2/L3 定档、30 秒自测与简历措辞防越档
 
 ## 使用建议
 

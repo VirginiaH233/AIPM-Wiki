@@ -80,25 +80,85 @@ AI PM 的能力可以拆成五个维度。前两个(技术认知、产品基本�
 - 如果发现一个 AI 功能可能对未成年人造成过度依赖风险,我知道产品层面该怎么设计吗?
 - 遇到"效果很好但存在合规风险"的方案,我会怎么处理?
 
+## 六、「熟悉大模型」三档自评
+
+> **补充于 2026-08**：JD 里几乎必写、却最容易被低估的一条。下面给出可自测的三档标准,对应上文「技术认知」的及格线 / 优秀线,并把模糊形容词拆成可验证行为。选题启发自磊叔《关于 AI 产品经理的 100 个问题》Q3;正文为原创,未摘录原书答案。
+
+多数 AI PM 的 JD 都会写「熟悉大模型 / LLM」。这句话本身几乎没有信息量——简历筛选用它当关键词,技术面用它开刀。面试官心里通常有三档预期;你要先知道自己真实落在哪一档,再决定补什么,而不是把「调过 ChatGPT API」写成「深度熟悉」。
+
+| 档位 | 能稳定做出来的事 | 面试里通常站不住的回答 | 对标本文哪条线 |
+|------|------------------|------------------------|----------------|
+| **L1 · 概念可用** | 能说清大模型擅长什么、不擅长什么;知道 token、上下文窗口、温度等基础概念对体验的含义;亲手调过至少 1–2 个主流 API / 控制台 | 只会背术语表,说不出「对产品设计意味着什么」;被追问「为什么这个需求不适合上 LLM」时只会复述「会幻觉」 | 技术认知及格线附近;多数简历筛选的下限 |
+| **L2 · 方案可判** | 能用 PM 语言讲清 Transformer / 注意力机制对长文本、延迟、成本的工程含义(不必会推公式);面对具体场景能在 Prompt / [RAG](../01-ai-basics/llm/what-is-rag.md) / 微调 / [Agent](../01-ai-basics/llm/agent-basics.md) 之间给出有依据的初判 | 只会说「都试一下」或「听算法的」;技术选型理由停在「效果更好」四个字 | 多数大厂中级 / 应用型 AI PM 的真实门槛;接近技术认知优秀线入口 |
+| **L3 · 选型可辩** | 业务目标扔过来,能倒推约束(效果底线、延迟、成本、合规),和算法同学**平等**讨论候选方案与取舍;能解释「为什么不用大模型」同样有依据 | 只会站队「用最强模型」或「必须自研」;被追问「你凭什么这么选」时拿不出评测 / 成本 / 风险证据 | 技术认知优秀线 + 商业判断交叉;模型厂商 / 平台型岗位更常考到这一档 |
+
+原理补课优先看 [Transformer 架构(PM 版)](../01-ai-basics/llm/transformer-architecture.md);选型流程与会议分工见 [模型选型决策框架](../02-pm-skills/cost-and-tech/model-selection-framework.md) 与 [团队角色与选型话语权](ai-pm-team-org-and-roles.md)。
+
+### 30 秒自测:你过没过 L2
+
+研发说「这个需求不适合用大模型」。若你只能点头或反问「那还能不能做」,多半还在 L1。若你能立刻追出**第二层原因**,并据此改方案,通常已跨过 L2 线:
+
+- 是**延迟**扛不住交互时限,还是峰值 QPS 下推理排队?
+- 是**单位任务成本**在目标定价下算不过来,还是可以分级路由 / 缓存?
+- 是**数据**不够 / 分布漂移 / 标注质量差,还是任务本身更适合规则或小模型?
+- 是**合规 / 可审计性**硬约束(必须可解释、必须人审),还是效果波动用户不可接受?
+
+能把「不适合」拆成可验证约束,你就已经在用产品语言管理模型能力,而不是在背概念。
+
+### 怎么升档(只写可执行的)
+
+| 从 → 到 | 建议动作(2–4 周可验证) |
+|---------|------------------------|
+| L1 → L2 | 选一个真实工作场景,写一页「方案选型备忘」:目标、失败可接受度、候选路径(Prompt / RAG / 微调 / 不上 AI)、放弃理由;再用 10–20 条样本做最小对照 |
+| L2 → L3 | 参与或旁听一次真实选型会,会后写清「约束 / 候选 / 取舍 / 复盘」四栏;补一份粗算的 token 成本与延迟预算,能被别人挑战 |
+
+岗位类型不同,目标档位也不同:[应用型 AI PM](ai-pm-job-types.md) 把 L2 做稳通常就够用;冲模型厂商 / 平台岗,需要把 L3 练成可演示的项目深挖素材。
+
+## 七、执行在贬值、判断在升值(轻量)
+
+> **补充于 2026-08**：和五维能力模型配套的「职业信号」短节——回答「哪些活正在变便宜、哪些能力反而更稀缺」。选题启发自磊叔《关于 AI 产品经理的 100 个问题》Q2;正文为原创框架。
+
+PM 岗位并没有被整体消灭,但**可模板化的执行**与**不可外包的判断**正在反向定价。工具把「写得出初稿」的门槛压低了;团队真正缺的是:问题有没有切对、边界有没有守住、上线后怎么证明做对了。
+
+| 更容易被工具稀释的执行 | 更难被替代、溢价上升的判断 |
+|------------------------|------------------------------|
+| 标准 PRD / 竞品功能对照表初稿、需求池整理、周报与会议纪要 | 定义「锐问题」:用户真正卡在哪、成功标准怎么验 |
+| 纯需求搬运(业务原话 → 开发文档,自己不加约束与取舍) | 信息不全时仍能做可回滚的产品决策,并写清假设 |
+| 低决策含量的功能跟催(排期、催进度、对勾验收) | 明确做什么 / 不做什么,以及「为什么现在不做」 |
+| 把「我会写文档」当唯一卖点 | 把效果、成本、延迟、合规放进同一套取舍,并能被评测与线上数据证伪 |
+
+这和上文五个维度是对齐的:产品基本功里**文档与推进**仍需要,但单独拿出来已不够构成差异化;真正拉开差距的是技术认知(方案可判)、数据与评估(如何证明做对了)、商业判断与合规(何时必须停)。传统 PM 与 AI PM 的差异对照见 [最大的区别是什么?](../04-interview/behavioral/ai-pm-vs-traditional-pm.md)。
+
+Anthropic 工程/产品侧公开讨论过类似节奏:模型能力指数级变化时,PM 的核心工作是在模糊里制造清晰、推动更快验证与交付,而不是守着一份半年不变的功能清单——见文末「参考资料」中 Cat Wu 一文(截至 2026-08 访问)。对转型者的实操含义很简单:**别把时间全砸在可被一键生成的交付物上**;把练习预算留给「选型备忘、评测集、badcase 归因、成本与风险取舍」这类判断证据。具体 3 个月计划见 [转型指南](transition-guide.md)。
+
 ## 怎么用这份模型自查
 
 建议按以下步骤操作:
 
 1. 对照五个维度,分别打分(及格线以下 / 及格线 / 优秀线之间 / 优秀线以上)
-2. 找出打分最低的 1-2 个维度,这就是你当前最该投入时间的地方
-3. 技术认知和数据评估能力通常是转行者的最大短板,可以从 [01-ai-basics](../01-ai-basics/README.md) 和 [model-evaluation](../02-pm-skills/model-evaluation/README.md) 补起
-4. 如果你是有经验的传统 PM,建议直接看 [传统 PM 转型 AI PM 指南](transition-guide.md),里面有针对性的 3 个月行动计划
-5. 想清楚自己适合哪类 AI PM 岗位后,再看 [AI PM 岗位类型盘点](ai-pm-job-types.md)——不同岗位对五个维度的权重要求差别很大
+2. 用第六节的 **L1 / L2 / L3** 给「熟悉大模型」单独定档——它比「技术认知」更贴近 JD 话术,也更好对面试官自报家门
+3. 用第七节检查简历卖点:若核心证据仍是「擅长写 PRD / 跟进度」,优先补判断类作品(选型备忘、评测、成本取舍),而不是再堆执行类证书
+4. 找出打分最低的 1–2 个维度,这就是你当前最该投入时间的地方
+5. 技术认知和数据评估能力通常是转行者的最大短板,可以从 [01-ai-basics](../01-ai-basics/README.md) 和 [model-evaluation](../02-pm-skills/model-evaluation/README.md) 补起
+6. 如果你是有经验的传统 PM,建议直接看 [传统 PM 转型 AI PM 指南](transition-guide.md),里面有针对性的 3 个月行动计划
+7. 想清楚自己适合哪类 AI PM 岗位后,再看 [AI PM 岗位类型盘点](ai-pm-job-types.md)——不同岗位对五个维度与 L1–L3 的权重要求差别很大
 
 ## 相关阅读
 
 - [AI 产品经理入门路径](getting-started.md)
 - [传统 PM 转型 AI PM 指南](transition-guide.md)
 - [AI PM 岗位类型盘点](ai-pm-job-types.md)
+- [AI 产品团队怎么建：角色、分工与选型话语权](ai-pm-team-org-and-roles.md)
+- [如何识别「挂羊头卖狗肉」的 AI PM 岗位](spot-fake-ai-pm-jobs.md)
 - [AI 术语速查表](../01-ai-basics/glossary.md)
+- [Transformer 架构:大模型的地基(PM 版)](../01-ai-basics/llm/transformer-architecture.md)
+- [什么是 RAG](../01-ai-basics/llm/what-is-rag.md)
+- [Agent 入门](../01-ai-basics/llm/agent-basics.md)
+- [模型选型决策框架](../02-pm-skills/cost-and-tech/model-selection-framework.md)
 - [模型与产品效果评估](../02-pm-skills/model-evaluation/README.md)
 - [AI 产品经理和传统产品经理最大的区别是什么?](../04-interview/behavioral/ai-pm-vs-traditional-pm.md)
 - [你没有 AI 背景,凭什么胜任 AI 产品经理?](../04-interview/behavioral/no-ai-background-why-qualified.md)
+- [JD 写「熟悉大模型」，面试官的三档标准是什么？怎么自测？](../04-interview/preparation/llm-familiarity-three-levels.md)
 
 ## 参考资料
 
@@ -106,6 +166,8 @@ AI PM 的能力可以拆成五个维度。前两个(技术认知、产品基本�
 - [Careers at Google DeepMind](https://deepmind.google/careers/) — Google DeepMind 官方招聘页,含 PM 岗位职责与招聘理念说明,2026-07 访问
 - [Product Manager, Gemini Post Training, DeepMind](https://www.google.com/about/careers/applications/jobs/results/119310585912271558-senior-product-manager-gemini-post-training-deepmind) — Google 官方招聘详情页,2026-07 访问
 - [Staff Product Manager, AI Platform - Databricks](https://www.databricks.com/company/careers/product/staff-product-manager-ai-platform-8427940002) — Databricks 官方招聘详情页,列出定价/商业化等职责要求,2026-07 访问
+- [Product management on the AI exponential](https://claude.com/blog/product-management-on-the-ai-exponential) — Anthropic / Claude 官方博客(Cat Wu),讨论模型能力快速变化下 PM 如何在模糊中制造清晰并加速验证,2026-08 访问
 - [生成式人工智能服务管理暂行办法](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) — 国家互联网信息办公室,2026-07 访问
 - [人工智能拟人化互动服务管理暂行办法](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm) — 国家互联网信息办公室,2026-07 访问
 - [The EU AI Act implementation timeline: understanding the next deadline for compliance](https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/) — Kennedys Law 法律解读,2026-07 访问
+- 选题启发:磊叔 / AIRay1015《关于 AI 产品经理的 100 个问题》Q2、Q3([飞书链接](https://my.feishu.cn/wiki/Rl6zw6lp2ipOnnkBVxwc5urRnLc));**不摘录答案正文**

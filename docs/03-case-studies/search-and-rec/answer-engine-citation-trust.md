@@ -89,6 +89,7 @@ Perplexity 把自身定位为 answer engine，并把「逐句编号引用」当�
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [什么是大模型的幻觉?产品上怎么缓解?](../../04-interview/basics/hallucination-mitigation.md)
 - [AI 产品的黑箱问题如何影响用户信任?](../../04-interview/basics/ai-blackbox-trust.md)
+- [Agentic UX 与信任校准：用户何时该信、何时该介入](../../02-pm-skills/prd-and-design/agentic-ux-and-trust-calibration.md)
 - [AI 搜索的北极星指标怎么定](../../04-interview/case-analysis/ai-search-north-star-metric.md)
 
 ## 参考资料

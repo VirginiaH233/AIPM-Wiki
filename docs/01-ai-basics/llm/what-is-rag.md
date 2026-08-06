@@ -50,6 +50,7 @@ RAG 一次性缓解这三个问题:答案基于检索到的真实材料生成,�
 - B站:[RAG 工作机制详解](https://www.bilibili.com/video/BV1JLN2z4EZQ)（马克的技术工作坊，~33 万播放）— 知识库全流程
 - B站:[RAG、Memory 与向量检索原理](https://www.bilibili.com/video/BV1RCGR6yEEw)（小白debug，~6.5 万播放）
 - B站:[向量数据库技术鉴赏（上）](https://www.bilibili.com/video/BV11a4y1c7SW)（Ele实验室，~28 万播放）
+- [Context Engineering：从写 Prompt 到拼上下文系统](../prompt-engineering/context-engineering.md)
 - [Prompt、RAG、微调:三种让模型「更懂你」的手段](prompt-rag-finetuning.md)
 - [RAG 没死:死的是 Naive 固定流水线](rag-evolution-naive-to-agentic.md)
 - [长上下文 vs RAG:什么时候塞全库,什么时候检索](long-context-vs-rag.md)

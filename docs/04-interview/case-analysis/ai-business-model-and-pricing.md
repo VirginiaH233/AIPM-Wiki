@@ -67,9 +67,14 @@
   → 产品侧:成本预估器、消费上限告警、缓存复用;商业侧:包月封顶、预付费折扣;技术侧:小模型路由 + 大模型兜底。
 - **追问 3**:"开源模型越来越便宜,闭源 API 怎么活?"
   → 卖的不只是模型:稳定性、合规、工具链、微调服务、SLA;或转向垂直场景的整体解决方案,而非裸 API。
+- **追问 4**:"订阅、Token、按结果三种,你怎么选?"
+  → 按决策树走:有履约中台优先交易;要账单可预期走订阅/席位+用量;结果可归因再试点按结果;对 C 端慎透传裸 Token。完整树见正课。
 
 ## 相关阅读
 
+- [AI 产品定价与商业化:订阅、Token、按结果怎么选](../../02-pm-skills/cost-and-tech/ai-pricing-and-monetization.md)
+- [助手类产品的商业化路径](../../03-case-studies/chatbot-assistant/assistant-monetization-paths.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)
 - [估算日活 100 万的 AI 对话产品每月模型调用成本](estimate-daily-active-chat-cost.md)
 - [某功能接入大模型后成本涨了 10 倍,如何降本?](reduce-llm-cost-10x.md)
+- [AI 产品成本测算入门](../../02-pm-skills/cost-and-tech/llm-cost-101.md)

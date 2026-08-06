@@ -11,3 +11,4 @@
 - [某功能接入大模型后成本涨了 10 倍,如何降本?](reduce-llm-cost-10x.md)
 - [分析一个你最近觉得做得好的 AI 产品,好在哪里?](analyze-a-good-ai-product.md)
 - [如果你是某 AI 搜索产品的 PM,你的北极星指标是什么?](ai-search-north-star-metric.md)
+- [AI 功能上线后留存很差，你怎么分诊？](ai-feature-retention-diagnosis.md)

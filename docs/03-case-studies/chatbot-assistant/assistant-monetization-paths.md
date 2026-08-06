@@ -137,6 +137,7 @@ ChatGPT 案引媒体:2026 年 3 月年化收入约 **250 亿美元**,约 **70%**
 - [Kimi 案例拆解:从长文本卖点到 Agent 产品化](kimi.md) —— 弱买量与 Agent 额度变现
 - [元宝（腾讯元宝）案例拆解](yuanbao.md) —— 免费优先与生态路径未披露边界
 - [LLM 成本入门:token、并发与人力](../../02-pm-skills/cost-and-tech/llm-cost-101.md)
+- [AI 产品定价与商业化:订阅、Token、按结果怎么选](../../02-pm-skills/cost-and-tech/ai-pricing-and-monetization.md) —— 五种模式决策树与 Token 劝退
 - [AI 产品的商业模式与定价](../../04-interview/case-analysis/ai-business-model-and-pricing.md)
 - [估算日活聊天的 Token 成本](../../04-interview/case-analysis/estimate-daily-active-chat-cost.md)
 

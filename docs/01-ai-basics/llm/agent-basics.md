@@ -56,6 +56,7 @@ Anthropic 在《Building Effective Agents》中给出关键区分:**工作流是
 - B站:[从 LLM 到 Agent Skill](https://www.bilibili.com/video/BV1E7wtzaEdq)（马克的技术工作坊，~135 万播放）— 一条线串起 Agent 核心概念
 - B站:[Agent、Skill、Harness 一次讲明白](https://www.bilibili.com/video/BV1YRG46eE1n)（通义实验室，~21 万播放）
 - B站:[一口气拆穿 Skill/MCP/RAG/Agent 底层逻辑](https://www.bilibili.com/video/BV1ojfDBSEPv)（飞天闪客，~88 万播放）
+- [Context Engineering：从写 Prompt 到拼上下文系统](../prompt-engineering/context-engineering.md)
 - [MCP:给 Agent 接上外部世界的「USB-C」](mcp.md)
 - [Agent Skills:给 Agent 装上可复用的「操作手册」](agent-skills.md)
 - [什么是 Agent?它和 Chatbot 的区别是什么?](../../04-interview/basics/agent-vs-chatbot.md)

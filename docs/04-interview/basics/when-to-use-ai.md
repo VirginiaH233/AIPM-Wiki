@@ -41,9 +41,12 @@
   → 真需求:有明确痛点、可量化收益、数据基础具备;伪需求:为 AI 而 AI、没有替代方案对比、无法定义"好"。
 - **追问 3**:"一个场景 AI 搞不定,你会建议什么替代方案?"
   → 规则引擎、人工 + 工具辅助、简化问题范围、分阶段引入 AI(先辅助后自动)。
+- **追问 4**:"确认要用 AI 之后,怎么选 AI Native 还是 +AI?"
+  → 先做「拿掉 AI」测试:价值塌掉走 Native,主流程仍成立走 +AI;决策流与投入门槛见正课,本题只判适不适合用 AI。
 
 ## 相关阅读
 
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)
+- [AI Native vs +AI：怎么判断该怎么做](../../02-pm-skills/prd-and-design/ai-native-vs-plus-ai.md)

@@ -49,6 +49,7 @@
 
 ## 相关阅读
 
+- [AI 产品的 A/B 测试：概率性输出下如何做实验](../../02-pm-skills/model-evaluation/ab-testing-for-ai-products.md)
 - [RAG 和微调有什么区别?什么场景该用哪个?](rag-vs-finetuning.md)
 - [什么是 RAG:检索增强生成入门](../../01-ai-basics/llm/what-is-rag.md)
 - [AI 术语速查表](../../01-ai-basics/glossary.md)
